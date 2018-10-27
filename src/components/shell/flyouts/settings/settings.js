@@ -126,7 +126,6 @@ export class Settings extends LinkedComponent {
       theme,
       changeTheme,
       version,
-      releaseNotesUrl,
       isSimulationEnabled,
       simulationToggleError,
       setLogoError,
