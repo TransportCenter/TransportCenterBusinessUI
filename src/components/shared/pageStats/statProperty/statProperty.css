@@ -1,0 +1,31 @@
+.stat-property {
+  display: flex;
+  flex-flow: row wrap;
+  flex-shrink: 0; }
+  .stat-property .stat-icon {
+    margin-right: 0.2em; }
+    .stat-property .stat-icon svg {
+      height: 14px;
+      height: 0.875rem;
+      width: 14px;
+      width: 0.875rem; }
+  .stat-property .stat-value {
+    padding-right: 0.2em; }
+    .stat-property .stat-value.large {
+      font-size: 48px;
+      font-size: 3rem; }
+    .stat-property .stat-value.medium {
+      font-size: 35px;
+      font-size: 2.1875rem; }
+    .stat-property .stat-value.small {
+      font-size: 18px;
+      font-size: 1.125rem; }
+    .stat-property .stat-value.normal {
+      font-size: inherit; }
+  .stat-property .stat-label {
+    align-self: flex-end;
+    flex-grow: 1; }
+  .theme-dark .stat-property .stat-value {
+    color: #fff; }
+  .theme-light .stat-property .stat-value {
+    color: #333; }

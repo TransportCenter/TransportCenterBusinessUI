@@ -1,0 +1,152 @@
+.form-control-container input.form-control,
+.form-control-container textarea.form-control {
+  font-size: inherit;
+  font-family: inherit;
+  background: transparent;
+  padding-left: 8px;
+  padding-left: 0.5rem;
+  padding-top: 5px;
+  padding-top: 0.3125rem;
+  padding-bottom: 5px;
+  padding-bottom: 0.3125rem; }
+  .form-control-container input.form-control:disabled,
+  .form-control-container textarea.form-control:disabled {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .form-control-container input.form-control::-webkit-outer-spin-button, .form-control-container input.form-control::-webkit-inner-spin-button,
+  .form-control-container textarea.form-control::-webkit-outer-spin-button,
+  .form-control-container textarea.form-control::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; }
+  .theme-dark .form-control-container input.form-control, .theme-dark
+  .form-control-container textarea.form-control {
+    color: #afb9c3;
+    border: 1px solid #3e4145; }
+    .theme-dark .form-control-container input.form-control::selection, .theme-dark
+    .form-control-container textarea.form-control::selection {
+      color: #fff;
+      background: rgba(112, 101, 253, 0.99); }
+    .theme-dark .form-control-container input.form-control::-moz-selection, .theme-dark
+    .form-control-container textarea.form-control::-moz-selection {
+      color: #fff;
+      background: rgba(112, 101, 253, 0.99); }
+    .theme-dark .form-control-container input.form-control::-webkit-input-placeholder, .theme-dark
+    .form-control-container textarea.form-control::-webkit-input-placeholder {
+      color: #6a737c; }
+    .theme-dark .form-control-container input.form-control:-ms-input-placeholder, .theme-dark
+    .form-control-container textarea.form-control:-ms-input-placeholder {
+      color: #6a737c; }
+    .theme-dark .form-control-container input.form-control::-moz-placeholder, .theme-dark
+    .form-control-container textarea.form-control::-moz-placeholder {
+      color: #6a737c; }
+    .theme-dark .form-control-container input.form-control:-moz-placeholder, .theme-dark
+    .form-control-container textarea.form-control:-moz-placeholder {
+      color: #6a737c; }
+    .theme-dark .form-control-container input.form-control:hover, .theme-dark .form-control-container input.form-control:focus, .theme-dark
+    .form-control-container textarea.form-control:hover, .theme-dark
+    .form-control-container textarea.form-control:focus {
+      border-color: #afb9c3; }
+    .theme-dark .form-control-container input.form-control.error, .theme-dark
+    .form-control-container textarea.form-control.error {
+      border-color: #fc540a; }
+    .theme-dark .form-control-container input.form-control:disabled, .theme-dark
+    .form-control-container textarea.form-control:disabled {
+      background-color: #3e4145;
+      color: #3e4145;
+      border: 1px solid #3e4145; }
+      .theme-dark .form-control-container input.form-control:disabled::-webkit-input-placeholder, .theme-dark
+      .form-control-container textarea.form-control:disabled::-webkit-input-placeholder {
+        color: #3e4145; }
+      .theme-dark .form-control-container input.form-control:disabled:-ms-input-placeholder, .theme-dark
+      .form-control-container textarea.form-control:disabled:-ms-input-placeholder {
+        color: #3e4145; }
+      .theme-dark .form-control-container input.form-control:disabled::-moz-placeholder, .theme-dark
+      .form-control-container textarea.form-control:disabled::-moz-placeholder {
+        color: #3e4145; }
+      .theme-dark .form-control-container input.form-control:disabled:-moz-placeholder, .theme-dark
+      .form-control-container textarea.form-control:disabled:-moz-placeholder {
+        color: #3e4145; }
+  .theme-light .form-control-container input.form-control, .theme-light
+  .form-control-container textarea.form-control {
+    color: #333;
+    border: 1px solid #3e4145; }
+    .theme-light .form-control-container input.form-control::selection, .theme-light
+    .form-control-container textarea.form-control::selection {
+      color: #333;
+      background: rgba(112, 101, 253, 0.99); }
+    .theme-light .form-control-container input.form-control::-moz-selection, .theme-light
+    .form-control-container textarea.form-control::-moz-selection {
+      color: #333;
+      background: rgba(112, 101, 253, 0.99); }
+    .theme-light .form-control-container input.form-control::-webkit-input-placeholder, .theme-light
+    .form-control-container textarea.form-control::-webkit-input-placeholder {
+      color: #6a737c; }
+    .theme-light .form-control-container input.form-control:-ms-input-placeholder, .theme-light
+    .form-control-container textarea.form-control:-ms-input-placeholder {
+      color: #6a737c; }
+    .theme-light .form-control-container input.form-control::-moz-placeholder, .theme-light
+    .form-control-container textarea.form-control::-moz-placeholder {
+      color: #6a737c; }
+    .theme-light .form-control-container input.form-control:-moz-placeholder, .theme-light
+    .form-control-container textarea.form-control:-moz-placeholder {
+      color: #6a737c; }
+    .theme-light .form-control-container input.form-control:hover, .theme-light .form-control-container input.form-control:focus, .theme-light
+    .form-control-container textarea.form-control:hover, .theme-light
+    .form-control-container textarea.form-control:focus {
+      border-color: #afb9c3; }
+    .theme-light .form-control-container input.form-control.error, .theme-light
+    .form-control-container textarea.form-control.error {
+      border-color: #fc540a; }
+    .theme-light .form-control-container input.form-control:disabled, .theme-light
+    .form-control-container textarea.form-control:disabled {
+      background-color: #3e4145;
+      color: #3e4145;
+      border: 1px solid #3e4145; }
+      .theme-light .form-control-container input.form-control:disabled::-webkit-input-placeholder, .theme-light
+      .form-control-container textarea.form-control:disabled::-webkit-input-placeholder {
+        color: #3e4145; }
+      .theme-light .form-control-container input.form-control:disabled:-ms-input-placeholder, .theme-light
+      .form-control-container textarea.form-control:disabled:-ms-input-placeholder {
+        color: #3e4145; }
+      .theme-light .form-control-container input.form-control:disabled::-moz-placeholder, .theme-light
+      .form-control-container textarea.form-control:disabled::-moz-placeholder {
+        color: #3e4145; }
+      .theme-light .form-control-container input.form-control:disabled:-moz-placeholder, .theme-light
+      .form-control-container textarea.form-control:disabled:-moz-placeholder {
+        color: #3e4145; }
+
+.form-control-container input.form-control {
+  height: 14px;
+  height: 0.875rem;
+  width: 116px;
+  width: 7.25rem; }
+  .form-control-container input.form-control.small {
+    width: 72px;
+    width: 4.5rem; }
+  .form-control-container input.form-control.long {
+    width: 240px;
+    width: 15rem; }
+
+.form-control-container textarea.form-control {
+  resize: none;
+  min-height: 1em;
+  padding-right: 8px;
+  padding-right: 0.5rem;
+  height: 60px;
+  height: 3.75rem;
+  width: 332px;
+  width: 20.75rem; }
+
+.form-control-container .error-message {
+  margin-top: 4px;
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .form-control-container .error-message svg {
+    height: 10px;
+    height: 0.625rem;
+    width: 10px;
+    width: 0.625rem; }

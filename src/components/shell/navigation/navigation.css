@@ -1,0 +1,105 @@
+.app-nav {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-shrink: 0;
+  overflow: hidden; }
+  .app-nav .nav-item {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-shrink: 0;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 48px;
+    height: 3rem; }
+    .app-nav .nav-item.hamburger {
+      margin-bottom: 24px;
+      margin-bottom: 1.5rem; }
+    .app-nav .nav-item .nav-item-icon {
+      height: 48px;
+      height: 3rem;
+      width: 48px;
+      width: 3rem; }
+      .app-nav .nav-item .nav-item-icon img,
+      .app-nav .nav-item .nav-item-icon svg {
+        height: 16px;
+        height: 1rem;
+        width: 16px;
+        width: 1rem;
+        margin: 10px; }
+    .app-nav .nav-item.company .nav-item-icon img {
+      height: 23px;
+      height: 1.4375rem;
+      width: 23px;
+      width: 1.4375rem; }
+    .app-nav .nav-item.company .nav-item-icon svg {
+      height: 23px;
+      height: 1.4375rem;
+      width: 23px;
+      width: 1.4375rem; }
+    .app-nav .nav-item .nav-item-text {
+      display: none;
+      flex-grow: 1;
+      flex-shrink: 0;
+      text-transform: capitalize;
+      padding-left: 16px;
+      padding-left: 1rem;
+      line-height: 48px;
+      line-height: 3rem; }
+    .app-nav .nav-item .nav-item-icon + .nav-item-text {
+      padding-left: 0; }
+  .app-nav a.nav-item {
+    cursor: pointer; }
+    .app-nav a.nav-item.active, .app-nav a.nav-item:focus, .app-nav a.nav-item:hover {
+      font-family: "Selawik Semibold"; }
+  .app-nav .nav-item.hamburger {
+    cursor: pointer; }
+  .app-nav.expanded {
+    width: 220px; }
+    .app-nav.expanded .nav-item .nav-item-text {
+      display: block; }
+  .theme-dark .app-nav {
+    background-color: #242628;
+    color: #fff; }
+    .theme-dark .app-nav .nav-item {
+      color: #fff; }
+      .theme-dark .app-nav .nav-item .nav-item-icon svg {
+        fill: #afb9c3; }
+      .theme-dark .app-nav .nav-item.company .nav-item-icon svg {
+        fill: #fff; }
+    .theme-dark .app-nav a.nav-item,
+    .theme-dark .app-nav .nav-item.hamburger {
+      color: #afb9c3; }
+      .theme-dark .app-nav a.nav-item.active, .theme-dark .app-nav a.nav-item:hover,
+      .theme-dark .app-nav .nav-item.hamburger.active,
+      .theme-dark .app-nav .nav-item.hamburger:hover {
+        color: #fff;
+        background-color: #1b1d1f; }
+        .theme-dark .app-nav a.nav-item.active .nav-item-icon svg, .theme-dark .app-nav a.nav-item:hover .nav-item-icon svg,
+        .theme-dark .app-nav .nav-item.hamburger.active .nav-item-icon svg,
+        .theme-dark .app-nav .nav-item.hamburger:hover .nav-item-icon svg {
+          fill: #fff; }
+  .theme-light .app-nav {
+    background-color: #242628;
+    color: #fff; }
+    .theme-light .app-nav .nav-item {
+      color: #fff; }
+      .theme-light .app-nav .nav-item .nav-item-icon svg {
+        fill: #afb9c3; }
+      .theme-light .app-nav .nav-item.company .nav-item-icon svg {
+        fill: #fff; }
+    .theme-light .app-nav a.nav-item,
+    .theme-light .app-nav .nav-item.hamburger {
+      color: #afb9c3; }
+      .theme-light .app-nav a.nav-item.active, .theme-light .app-nav a.nav-item:hover,
+      .theme-light .app-nav .nav-item.hamburger.active,
+      .theme-light .app-nav .nav-item.hamburger:hover {
+        color: #fff;
+        background-color: #1b1d1f; }
+        .theme-light .app-nav a.nav-item.active .nav-item-icon svg, .theme-light .app-nav a.nav-item:hover .nav-item-icon svg,
+        .theme-light .app-nav .nav-item.hamburger.active .nav-item-icon svg,
+        .theme-light .app-nav .nav-item.hamburger:hover .nav-item-icon svg {
+          fill: #fff; }

@@ -1,0 +1,14 @@
+.form-group {
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .form-group .form-group-label {
+    display: block;
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem; }
+  .form-group + .form-group {
+    margin-top: 16px;
+    margin-top: 1rem; }
+  .theme-dark .form-group .form-group-label {
+    color: #fff; }
+  .theme-light .form-group .form-group-label {
+    color: #333; }

@@ -1,0 +1,34 @@
+.rule-details-context-menu-container .alert-indicator-container {
+  display: flex;
+  align-items: center; }
+
+.rule-details-container {
+  overflow-y: scroll; }
+  .rule-details-container .rule-maintenance-header {
+    font-weight: 700;
+    margin: 0px 10px 10px 0px;
+    margin: 0rem 0.625rem 0.625rem 0rem;
+    font-size: 42px;
+    font-size: 2.625rem; }
+  .rule-details-container .rule-stat-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-right: 0.625rem; }
+    .rule-details-container .rule-stat-container .rule-stat-header {
+      text-transform: uppercase; }
+    .rule-details-container .rule-stat-container .rule-stat-cell {
+      display: flex;
+      flex-flow: column wrap;
+      margin-right: 20px;
+      margin-right: 1.25rem;
+      font-size: 14px;
+      font-size: 0.875rem; }
+      .rule-details-container .rule-stat-container .rule-stat-cell .rule-stat-value {
+        margin-top: 8px;
+        margin-top: 0.5rem; }
+  .theme-dark .rule-details-container .rule-stat-container .rule-stat-cell .rule-stat-value {
+    color: #fff; }
+  .theme-light .rule-details-container .rule-stat-container .rule-stat-cell .rule-stat-value {
+    color: #333; }

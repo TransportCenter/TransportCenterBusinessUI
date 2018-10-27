@@ -1,0 +1,89 @@
+.delete-rule-flyout-container .padded-top-bottom {
+  margin-left: 0px;
+  padding: 24px 0px;
+  padding: 1.5rem 0rem; }
+
+.delete-rule-flyout-container .delete-info {
+  display: flex; }
+  .delete-rule-flyout-container .delete-info .asterisk-svg {
+    align-self: flex-start; }
+    .delete-rule-flyout-container .delete-info .asterisk-svg svg {
+      height: 12px;
+      height: 0.75rem;
+      width: 12px;
+      width: 0.75rem;
+      margin-right: 6px;
+      margin-right: 0.375rem;
+      margin-top: 2px;
+      margin-top: 0.125rem; }
+
+.delete-rule-flyout-container .delete-confirmation-text {
+  display: flex; }
+  .delete-rule-flyout-container .delete-confirmation-text .check-svg {
+    align-self: flex-start; }
+    .delete-rule-flyout-container .delete-confirmation-text .check-svg svg {
+      height: 14px;
+      height: 0.875rem;
+      width: 14px;
+      width: 0.875rem;
+      margin-left: 14px;
+      margin-left: 0.875rem; }
+
+.delete-rule-flyout-container .rule-details {
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-top: 10px;
+  padding-top: 0.625rem;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem; }
+
+.delete-rule-flyout-container .rule-delete-error {
+  border: 1px transparent solid;
+  margin: 12px 0px;
+  margin: 0.75rem 0rem;
+  padding: 16px;
+  padding: 1rem; }
+
+.delete-rule-flyout-container .delete-info,
+.delete-rule-flyout-container .delete-confirmation {
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding-top: 24px;
+  padding-top: 1.5rem; }
+
+.theme-dark .delete-rule-flyout-container .delete-info a,
+.theme-dark .delete-rule-flyout-container .delete-confirmation a {
+  color: #fff; }
+
+.theme-dark .delete-rule-flyout-container .delete-info,
+.theme-dark .delete-rule-flyout-container .delete-confirmation {
+  color: #fff; }
+
+.theme-dark .delete-rule-flyout-container .asterisk-svg svg {
+  fill: #fc540a; }
+
+.theme-dark .delete-rule-flyout-container .check-svg svg {
+  fill: #fff; }
+
+.theme-dark .delete-rule-flyout-container .post-delete-info-text {
+  margin-top: 16px;
+  margin-top: 1rem; }
+
+.theme-light .delete-rule-flyout-container .delete-info a,
+.theme-light .delete-rule-flyout-container .delete-confirmation a {
+  color: #121416; }
+
+.theme-light .delete-rule-flyout-container .delete-info,
+.theme-light .delete-rule-flyout-container .delete-confirmation {
+  color: #121416; }
+
+.theme-light .delete-rule-flyout-container .asterisk-svg svg {
+  fill: #fc540a; }
+
+.theme-light .delete-rule-flyout-container .check-svg svg {
+  fill: #121416; }
+
+.theme-light .delete-rule-flyout-container .post-delete-info-text {
+  margin-top: 16px;
+  margin-top: 1rem; }

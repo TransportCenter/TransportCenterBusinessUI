@@ -1,0 +1,17 @@
+.theme-dark .pcs-renderer-cell.severity.info .pcs-renderer-icon svg {
+  fill: #7065fd; }
+
+.theme-dark .pcs-renderer-cell.severity.warning .pcs-renderer-icon svg {
+  fill: #ffee91; }
+
+.theme-dark .pcs-renderer-cell.severity.critical .pcs-renderer-icon svg {
+  fill: #fc540a; }
+
+.theme-light .pcs-renderer-cell.severity.info .pcs-renderer-icon svg {
+  fill: #7065fd; }
+
+.theme-light .pcs-renderer-cell.severity.warning .pcs-renderer-icon svg {
+  fill: #f4ca2c; }
+
+.theme-light .pcs-renderer-cell.severity.critical .pcs-renderer-icon svg {
+  fill: #fc540a; }

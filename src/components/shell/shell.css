@@ -1,0 +1,42 @@
+.shell-container {
+  height: 100%; }
+
+.shell {
+  height: 100%;
+  display: flex; }
+  .shell ::-webkit-scrollbar {
+    width: 12px; }
+  .theme-dark .shell {
+    color: #fff;
+    background-color: #121416; }
+    .theme-dark .shell ::selection {
+      color: #fff;
+      background: rgba(96, 170, 255, 0.99); }
+    .theme-dark .shell ::-moz-selection {
+      color: #fff;
+      background: rgba(96, 170, 255, 0.99); }
+    .theme-dark .shell ::-webkit-scrollbar-track {
+      background-color: #1b1d1f; }
+    .theme-dark .shell ::-webkit-scrollbar-corner {
+      background-color: #1b1d1f; }
+    .theme-dark .shell ::-webkit-scrollbar {
+      background-color: #1b1d1f; }
+    .theme-dark .shell ::-webkit-scrollbar-thumb {
+      background-color: #383b3e; }
+  .theme-light .shell {
+    color: #333;
+    background-color: #f2f2f2; }
+    .theme-light .shell ::selection {
+      color: #333;
+      background: rgba(19, 107, 251, 0.99); }
+    .theme-light .shell ::-moz-selection {
+      color: #333;
+      background: rgba(19, 107, 251, 0.99); }
+    .theme-light .shell ::-webkit-scrollbar-track {
+      background-color: #f2f2f2; }
+    .theme-light .shell ::-webkit-scrollbar-corner {
+      background-color: #f2f2f2; }
+    .theme-light .shell ::-webkit-scrollbar {
+      background-color: #f2f2f2; }
+    .theme-light .shell ::-webkit-scrollbar-thumb {
+      background-color: #ccc; }

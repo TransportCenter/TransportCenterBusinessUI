@@ -1,0 +1,9 @@
+.btn-toolbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  padding-top: 32px;
+  padding-top: 2rem; }
+  .btn-toolbar .btn {
+    margin-right: 20px;
+    margin-right: 1.25rem; }

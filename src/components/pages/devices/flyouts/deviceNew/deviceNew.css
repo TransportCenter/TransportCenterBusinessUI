@@ -1,0 +1,103 @@
+.devices-new-container {
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding: 12px 0px;
+  padding: 0.75rem 0rem; }
+  .devices-new-container .devices-new-content {
+    padding-bottom: 32px;
+    padding-bottom: 2rem; }
+  .devices-new-container .form-group-label {
+    font-size: 16px;
+    font-size: 1rem; }
+  .devices-new-container .device-count {
+    margin-left: 20px;
+    margin-left: 1.25rem; }
+  .devices-new-container .device-id.form-control {
+    margin: -4px 0px 8px 0px;
+    margin: -0.25rem 0rem 0.5rem 0rem; }
+  .devices-new-container .radio-container {
+    margin-top: 0px; }
+    .devices-new-container .radio-container .form-group-label {
+      font-size: 14px;
+      font-size: 0.875rem; }
+  .devices-new-container .sub-settings {
+    margin: 0px 44px;
+    margin: 0px 44px/16pxrem; }
+    .devices-new-container .sub-settings .form-group-label {
+      font-size: 14px;
+      font-size: 0.875rem;
+      margin: 4px 0px;
+      margin: 0.25rem 0rem; }
+    .devices-new-container .sub-settings input {
+      width: 100%; }
+  .devices-new-container .devices-new-error {
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .devices-new-container .wait-indicator {
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .devices-new-container .summary-icon svg {
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .devices-new-container .device-detail {
+    width: 100%; }
+    .devices-new-container .device-detail .section-header {
+      font-size: inherit; }
+    .devices-new-container .device-detail .device-detail-contents {
+      display: flex;
+      align-items: flex-start;
+      word-wrap: break-word;
+      flex-grow: 0; }
+      .devices-new-container .device-detail .device-detail-contents .device-detail-value {
+        flex-basis: 90%; }
+      .devices-new-container .device-detail .device-detail-contents .copy-icon {
+        flex-basis: 10%; }
+        .devices-new-container .device-detail .device-detail-contents .copy-icon svg {
+          cursor: pointer;
+          height: 16px;
+          height: 1rem;
+          width: 16px;
+          width: 1rem; }
+  .devices-new-container .devices-new-error {
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .theme-dark .devices-new-container {
+    color: #afb9c3; }
+    .theme-dark .devices-new-container .radio-container .form-group-label,
+    .theme-dark .devices-new-container .sub-settings .form-group-label {
+      color: #afb9c3; }
+    .theme-dark .devices-new-container .devices-new-error {
+      border-color: #fc540a; }
+    .theme-dark .devices-new-container .summary-icon svg {
+      fill: #fff; }
+    .theme-dark .devices-new-container .device-detail .section-header {
+      color: #fff; }
+    .theme-dark .devices-new-container .device-detail .device-detail-value {
+      color: #afb9c3; }
+    .theme-dark .devices-new-container .device-detail .copy-icon svg {
+      fill: #afb9c3; }
+  .theme-light .devices-new-container {
+    color: #666; }
+    .theme-light .devices-new-container .radio-container .form-group-label,
+    .theme-light .devices-new-container .sub-settings .form-group-label {
+      color: #666; }
+    .theme-light .devices-new-container .devices-new-error {
+      border-color: #fc540a; }
+    .theme-light .devices-new-container .summary-icon svg {
+      fill: #333; }
+    .theme-light .devices-new-container .device-detail .section-header {
+      color: #333; }
+    .theme-light .devices-new-container .device-detail .device-detail-value {
+      color: #666; }
+    .theme-light .devices-new-container .device-detail .copy-icon svg {
+      fill: #666; }

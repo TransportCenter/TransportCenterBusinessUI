@@ -1,0 +1,96 @@
+.property-grid-container {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  padding-left: 8px;
+  padding-left: 0.5rem; }
+  .property-grid-container .grid-header .cell {
+    font-family: "Selawik Bold";
+    text-transform: uppercase;
+    font-size: 10px;
+    font-size: 0.625rem;
+    padding-top: 4px;
+    padding-top: 0.25rem; }
+  .property-grid-container .grid-scrollable {
+    overflow-y: auto;
+    max-height: 268px;
+    max-height: 16.75rem; }
+    .property-grid-container .grid-scrollable::-webkit-scrollbar {
+      width: 4px;
+      height: 4px; }
+    .property-grid-container .grid-scrollable:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 4px;
+      height: 8px;
+      pointer-events: none; }
+  .property-grid-container .row {
+    display: flex;
+    flex-direction: row;
+    padding: 16px 0px 16px 8px;
+    padding: 1rem 0rem 1rem 0.5rem; }
+    .property-grid-container .row .cell {
+      display: flex;
+      flex-basis: 50%;
+      flex-grow: 1;
+      flex-direction: column; }
+      .property-grid-container .row .cell.col-1 {
+        flex-basis: 10%; }
+      .property-grid-container .row .cell.col-2 {
+        flex-basis: 20%; }
+      .property-grid-container .row .cell.col-3 {
+        flex-basis: 30%; }
+      .property-grid-container .row .cell.col-4 {
+        flex-basis: 40%; }
+      .property-grid-container .row .cell.col-5 {
+        flex-basis: 50%; }
+      .property-grid-container .row .cell.col-6 {
+        flex-basis: 60%; }
+      .property-grid-container .row .cell.col-7 {
+        flex-basis: 70%; }
+      .property-grid-container .row .cell.col-8 {
+        flex-basis: 80%; }
+      .property-grid-container .row .cell.col-9 {
+        flex-basis: 90%; }
+  .theme-dark .property-grid-container .grid-header {
+    border-bottom: 1px solid #383b3e; }
+    .theme-dark .property-grid-container .grid-header .row .cell {
+      color: #afb9c3; }
+  .theme-dark .property-grid-container .row {
+    border-bottom: 1px solid #383b3e; }
+    .theme-dark .property-grid-container .row:last-child {
+      border-bottom: none; }
+    .theme-dark .property-grid-container .row .cell {
+      color: #fff; }
+  .theme-dark .property-grid-container .grid-scrollable:after {
+    background: -moz-linear-gradient(top, rgba(18, 20, 22, 0.25) 0%, #121416 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(18, 20, 22, 0.25) 0%, #121416 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(18, 20, 22, 0.25) 0%, #121416 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40121416', endColorstr='#FF121416',GradientType=0 );
+    /* IE6-9 */
+    border-bottom: 1px solid #242628; }
+  .theme-light .property-grid-container .grid-header {
+    border-bottom: 1px solid #c8c8c8; }
+    .theme-light .property-grid-container .grid-header .row .cell {
+      color: #666; }
+  .theme-light .property-grid-container .row {
+    border-bottom: 1px solid #c8c8c8; }
+    .theme-light .property-grid-container .row:last-child {
+      border-bottom: none; }
+    .theme-light .property-grid-container .row .cell {
+      color: #333; }
+  .theme-light .property-grid-container .grid-scrollable:after {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, white 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, white 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, white 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40FFFFFF', endColorstr='#FFFFFFFF',GradientType=0 );
+    /* IE6-9 */
+    border-bottom: 1px solid; }

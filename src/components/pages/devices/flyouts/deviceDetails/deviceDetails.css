@@ -1,0 +1,59 @@
+.device-details-container {
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .device-details-container .pcs-grid-container {
+    padding: 0px 0px 12px 0px;
+    padding: 0rem 0rem 0.75rem 0rem; }
+  .device-details-container .flyout-section-content .section-desc {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 15px;
+    line-height: 0.9375rem;
+    padding: 0px 0px 10px 0px;
+    padding: 0rem 0rem 0.625rem 0rem; }
+  .device-details-container .device-details-header {
+    padding: 12px 0px;
+    padding: 0.75rem 0rem; }
+    .device-details-container .device-details-header .device-name {
+      font-size: 18px;
+      font-size: 1.125rem; }
+    .device-details-container .device-details-header .device-simulated {
+      font-size: 10px;
+      font-size: 0.625rem; }
+    .device-details-container .device-details-header .device-connected {
+      font-size: 14px;
+      font-size: 0.875rem; }
+    .device-details-container .device-details-header .device-icon svg {
+      height: 72px;
+      height: 4.5rem;
+      margin-right: 24px;
+      margin-right: 1.5rem; }
+  .device-details-container .device-properties-actions .row {
+    border: 0;
+    font-size: 12px;
+    font-size: 0.75rem;
+    padding: 12px 0px 0px 0px;
+    padding: 0.75rem 0rem 0rem 0rem; }
+  .device-details-container .raw-message-button {
+    text-align: left;
+    padding: 0;
+    margin-right: 10px;
+    margin-right: 0.625rem; }
+  .device-details-container .time-series-explorer {
+    display: block; }
+  .theme-dark .device-details-container .device-details-header .device-icon svg {
+    fill: #afb9c3; }
+  .theme-dark .device-details-container .flyout-section-content {
+    color: #fff; }
+    .theme-dark .device-details-container .flyout-section-content .section-desc {
+      color: #afb9c3; }
+  .theme-dark .device-details-container .device-properties-actions .row {
+    color: #afb9c3; }
+  .theme-light .device-details-container .device-details-header .device-icon svg {
+    fill: #666; }
+  .theme-light .device-details-container .flyout-section-content {
+    color: #333; }
+    .theme-light .device-details-container .flyout-section-content .section-desc {
+      color: #666; }
+  .theme-light .device-details-container .device-properties-actions .row {
+    color: #666; }

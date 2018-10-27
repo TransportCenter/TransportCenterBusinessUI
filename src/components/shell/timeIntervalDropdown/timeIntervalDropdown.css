@@ -1,0 +1,30 @@
+.time-interval-dropdown {
+  width: 200px;
+  width: 12.5rem; }
+  .time-interval-dropdown .Select-menu-outer {
+    margin-top: 1px !important;
+    border-top: none !important; }
+  .time-interval-dropdown .Select-control {
+    border: none !important;
+    height: 100% !important; }
+    .time-interval-dropdown .Select-control .Select-placeholder {
+      display: flex;
+      align-items: center; }
+    .time-interval-dropdown .Select-control .Select-input {
+      height: 100%; }
+      .time-interval-dropdown .Select-control .Select-input input {
+        height: 100%; }
+  .theme-dark .time-interval-dropdown .Select-control,
+  .theme-dark .time-interval-dropdown .Select-menu-outer {
+    background-color: #121416 !important;
+    border-color: #383b3e !important; }
+    .theme-dark .time-interval-dropdown .Select-control:hover,
+    .theme-dark .time-interval-dropdown .Select-menu-outer:hover {
+      border-color: #383b3e !important; }
+  .theme-light .time-interval-dropdown .Select-control,
+  .theme-light .time-interval-dropdown .Select-menu-outer {
+    background-color: #f2f2f2 !important;
+    border-color: #c8c8c8 !important; }
+    .theme-light .time-interval-dropdown .Select-control:hover,
+    .theme-light .time-interval-dropdown .Select-menu-outer:hover {
+      border-color: #c8c8c8 !important; }

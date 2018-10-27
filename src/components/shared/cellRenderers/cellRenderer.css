@@ -1,0 +1,83 @@
+.pcs-renderer-cell {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; }
+  .pcs-renderer-cell .pcs-renderer-icon {
+    margin-right: 10px; }
+    .pcs-renderer-cell .pcs-renderer-icon svg {
+      height: 14px;
+      height: 0.875rem;
+      width: 14px;
+      width: 0.875rem; }
+  .pcs-renderer-cell .pcs-renderer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    height: 2.5rem; }
+    .pcs-renderer-cell .pcs-renderer-link svg {
+      height: 16px;
+      height: 1rem;
+      width: 16px;
+      width: 1rem; }
+  .pcs-renderer-cell .pcs-renderer-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .pcs-renderer-cell .pcs-renderer-text.uppercase {
+      text-transform: uppercase; }
+    .pcs-renderer-cell .pcs-renderer-text > .icon-only {
+      display: none !important; }
+  .theme-dark .pcs-renderer-cell .pcs-renderer-icon {
+    margin-right: 10px; }
+    .theme-dark .pcs-renderer-cell .pcs-renderer-icon svg {
+      fill: #afb9c3; }
+      .theme-dark .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon {
+        stroke: #afb9c3; }
+        .theme-dark .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2 {
+          stroke: #1b1d1f; }
+  .theme-dark .pcs-renderer-cell .pcs-renderer-link svg {
+    fill: #afb9c3; }
+  .theme-dark .pcs-renderer-cell .pcs-renderer-link:hover svg {
+    fill: #fff; }
+  .theme-dark .pcs-renderer-cell .pcs-renderer-text {
+    color: #afb9c3; }
+  .theme-dark .pcs-renderer-cell.highlight .pcs-renderer-icon svg {
+    fill: #fff; }
+    .theme-dark .pcs-renderer-cell.highlight .pcs-renderer-icon svg .disabled-icon {
+      stroke: #fff; }
+  .theme-dark .pcs-renderer-cell.highlight .pcs-renderer-text {
+    color: #fff; }
+  .theme-light .pcs-renderer-cell .pcs-renderer-icon {
+    margin-right: 10px; }
+    .theme-light .pcs-renderer-cell .pcs-renderer-icon svg {
+      fill: #333; }
+      .theme-light .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon {
+        stroke: #333; }
+        .theme-light .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2 {
+          stroke: #fff; }
+  .theme-light .pcs-renderer-cell .pcs-renderer-link svg {
+    fill: #333; }
+  .theme-light .pcs-renderer-cell .pcs-renderer-link:hover svg {
+    fill: #333; }
+  .theme-light .pcs-renderer-cell .pcs-renderer-text {
+    color: #333; }
+  .theme-light .pcs-renderer-cell.highlight .pcs-renderer-icon svg {
+    fill: #333; }
+    .theme-light .pcs-renderer-cell.highlight .pcs-renderer-icon svg .disabled-icon {
+      stroke: #333; }
+  .theme-light .pcs-renderer-cell.highlight .pcs-renderer-text {
+    color: #333; }
+
+.soft-select-link-cell {
+  display: inline;
+  color: inherit;
+  text-decoration: underline; }
+  .soft-select-link-cell:hover {
+    text-decoration: none; }
+
+.theme-dark .ag-row.ag-row-hover .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2, .theme-dark .ag-row.ag-row-focus .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2 {
+  stroke: #1a1c1f; }
+
+.theme-light .ag-row.ag-row-hover .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2, .theme-light .ag-row.ag-row-focus .pcs-renderer-cell .pcs-renderer-icon svg .disabled-icon .cls-2 {
+  stroke: #f2f2f2; }

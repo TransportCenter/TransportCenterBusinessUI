@@ -1,0 +1,56 @@
+.flyout-section .flyout-section-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: inherit;
+  font-family: inherit;
+  height: 48px;
+  height: 3rem;
+  font-size: 16px;
+  font-size: 1rem; }
+  .flyout-section .flyout-section-header .collapse-section-icon {
+    transition: all 100ms linear;
+    margin-right: 20px;
+    margin-right: 1.25rem; }
+    .flyout-section .flyout-section-header .collapse-section-icon svg {
+      height: 14px;
+      height: 0.875rem;
+      width: 14px;
+      width: 0.875rem; }
+    .flyout-section .flyout-section-header .collapse-section-icon.collapsed {
+      transform: rotate(90deg); }
+    .flyout-section .flyout-section-header .collapse-section-icon.expanded {
+      transform: rotate(-90deg); }
+
+.flyout-section button.flyout-section-header {
+  cursor: pointer; }
+
+.flyout-section .flyout-section-content {
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
+  font-size: 14px;
+  font-size: 0.875rem; }
+
+.theme-dark .flyout-section {
+  border-top: 1px solid #383b3e; }
+  .theme-dark .flyout-section .flyout-section-header {
+    color: #fff; }
+    .theme-dark .flyout-section .flyout-section-header .collapse-section-icon svg {
+      fill: #afb9c3; }
+    .theme-dark .flyout-section .flyout-section-header:hover .collapse-section-icon svg {
+      fill: #fff; }
+
+.theme-light .flyout-section {
+  border-top: 1px solid #c8c8c8; }
+  .theme-light .flyout-section .flyout-section-header {
+    color: #333; }
+    .theme-light .flyout-section .flyout-section-header .collapse-section-icon svg {
+      fill: #666; }
+    .theme-light .flyout-section .flyout-section-header:hover .collapse-section-icon svg {
+      fill: #333; }

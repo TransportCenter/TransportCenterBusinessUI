@@ -1,0 +1,133 @@
+.app-header {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+  height: 48px;
+  height: 3rem; }
+  .app-header .breadcrumbs {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 14px;
+    font-size: 0.875rem; }
+    .app-header .breadcrumbs .chevron-icon {
+      margin-left: 10px;
+      margin-right: 10px; }
+      .app-header .breadcrumbs .chevron-icon svg {
+        height: 14px;
+        height: 0.875rem;
+        width: 14px;
+        width: 0.875rem; }
+    .app-header .breadcrumbs .crumb {
+      text-transform: capitalize;
+      text-decoration: none; }
+    .app-header .breadcrumbs a.crumb:hover {
+      text-decoration: underline; }
+  .app-header .label {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 48px;
+    line-height: 3rem;
+    padding-left: 24px;
+    padding-left: 1.5rem;
+    padding-right: 24px;
+    padding-right: 1.5rem; }
+  .app-header .items-container {
+    display: flex;
+    align-items: center;
+    position: relative; }
+    .app-header .items-container button {
+      border: 0;
+      padding: 0;
+      background-color: transparent; }
+    .app-header .items-container .item-icon {
+      cursor: pointer;
+      height: 48px;
+      height: 3rem;
+      width: 48px;
+      width: 3rem; }
+      .app-header .items-container .item-icon svg {
+        height: 16px;
+        height: 1rem;
+        width: 16px;
+        width: 1rem; }
+      .app-header .items-container .item-icon.profile {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .app-header .items-container .item-icon.profile img {
+          height: 30px;
+          height: 1.875rem;
+          width: 30px;
+          width: 1.875rem; }
+    .app-header .items-container .menu-container {
+      position: relative; }
+      .app-header .items-container .menu-container .menu {
+        display: flex;
+        flex-flow: column wrap;
+        position: absolute;
+        z-index: 2000;
+        right: 0;
+        top: 100%;
+        border: 1px solid;
+        width: 180px;
+        width: 11.25rem; }
+        .app-header .items-container .menu-container .menu > .menu-item {
+          display: block;
+          text-align: left;
+          cursor: pointer;
+          text-decoration: none;
+          font-size: 14px;
+          font-size: 0.875rem;
+          padding: 10px;
+          padding: 0.625rem; }
+  .theme-dark .app-header {
+    border-bottom: 1px solid #383b3e; }
+    .theme-dark .app-header .breadcrumbs .chevron-icon svg {
+      fill: #afb9c3; }
+    .theme-dark .app-header .breadcrumbs .crumb {
+      color: #afb9c3; }
+    .theme-dark .app-header .label {
+      color: #afb9c3; }
+    .theme-dark .app-header .items-container {
+      border-left: 1px solid #383b3e; }
+      .theme-dark .app-header .items-container .item-icon svg {
+        fill: #afb9c3; }
+      .theme-dark .app-header .items-container .item-icon:hover {
+        background-color: #1b1d1f; }
+        .theme-dark .app-header .items-container .item-icon:hover svg {
+          fill: #fff; }
+      .theme-dark .app-header .items-container .menu {
+        background-color: #121416;
+        border-color: #7065fd; }
+        .theme-dark .app-header .items-container .menu > .menu-item {
+          color: #afb9c3; }
+          .theme-dark .app-header .items-container .menu > .menu-item:hover {
+            background-color: #1b1d1f; }
+  .theme-light .app-header {
+    background-color: #121416;
+    border-bottom: 1px solid #c8c8c8; }
+    .theme-light .app-header .breadcrumbs .chevron-icon svg {
+      fill: #afb9c3; }
+    .theme-light .app-header .breadcrumbs .crumb {
+      color: #afb9c3; }
+    .theme-light .app-header .label {
+      color: #afb9c3; }
+    .theme-light .app-header .items-container {
+      border-left: 1px solid #383b3e; }
+      .theme-light .app-header .items-container .item-icon svg {
+        fill: #afb9c3; }
+      .theme-light .app-header .items-container .item-icon:hover {
+        background-color: #1b1d1f; }
+        .theme-light .app-header .items-container .item-icon:hover svg {
+          fill: #fff; }
+      .theme-light .app-header .items-container .menu {
+        background-color: #121416;
+        border-color: #7065fd; }
+        .theme-light .app-header .items-container .menu > .menu-item {
+          color: #afb9c3; }
+          .theme-light .app-header .items-container .menu > .menu-item:hover {
+            background-color: #1b1d1f; }

@@ -1,0 +1,15 @@
+.page-not-found-container {
+  font-family: "Selawik Bold";
+  text-align: center;
+  font-size: 24px;
+  font-size: 1.5rem;
+  padding: 70px;
+  padding: 4.375rem; }
+  .page-not-found-container .quote {
+    font-family: "Selawik Light";
+    font-style: italic;
+    font-size: 1.2em; }
+  .theme-dark .page-not-found-container {
+    color: #fff; }
+  .theme-light .page-not-found-container {
+    color: #333; }

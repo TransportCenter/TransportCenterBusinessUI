@@ -1,0 +1,18 @@
+.summary-container .no-data-msg {
+  text-align: center;
+  padding: 20px;
+  padding: 1.25rem;
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.theme-dark .summary-container .stat-warning {
+  fill: #ffee91; }
+
+.theme-dark .summary-container .stat-critical {
+  fill: #fc540a; }
+
+.theme-light .summary-container .stat-warning {
+  fill: #f4ca2c; }
+
+.theme-light .summary-container .stat-critical {
+  fill: #fc540a; }

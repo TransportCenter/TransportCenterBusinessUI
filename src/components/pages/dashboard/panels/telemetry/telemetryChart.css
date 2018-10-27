@@ -1,0 +1,2571 @@
+.tsi-lineChart {
+  display: flex;
+  position: relative; }
+
+.tsi-lineChart.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG text {
+  fill: #fff; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG circle {
+  fill: #fff; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG .focusLine {
+  stroke: #62666c; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG .guideLine {
+  stroke: #fff; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG .standardYAxisText {
+  font-weight: lighter !important;
+  fill: #fff !important; }
+
+.tsi-lineChart.tsi-dark .lineChartSVG .xAxisBaseline {
+  stroke: #fff !important; }
+
+.tsi-lineChart.tsi-dark .yAxis path, .tsi-lineChart.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-lineChart.tsi-dark .yAxis .tick text, .tsi-lineChart.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-lineChart.tsi-dark .yAxis .tick line, .tsi-lineChart.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-lineChart.tsi-dark .vHoverBox, .tsi-lineChart.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-lineChart.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-lineChart.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-lineChart.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-lineChart.tsi-dark .hHoverText, .tsi-lineChart.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-lineChart.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-lineChart.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-lineChart.tsi-dark .stacked g path, .tsi-lineChart.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-lineChart.tsi-dark .tsi-gridButton rect:active, .tsi-lineChart.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-lineChart.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-lineChart.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-lineChart.tsi-dark .yAxis path, .tsi-lineChart.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-lineChart.tsi-dark .yAxis .tick text, .tsi-lineChart.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-lineChart.tsi-dark rect, .tsi-lineChart.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-lineChart.tsi-dark .stacked g path, .tsi-lineChart.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-lineChart.tsi-dark .stacked rect, .tsi-lineChart.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-lineChart.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-lineChart.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-lineChart.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-lineChart.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-lineChart.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-lineChart.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-lineChart.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-lineChart.tsi-dark .focus {
+  display: none; }
+
+.tsi-lineChart.tsi-dark svg {
+  display: block; }
+
+.tsi-lineChart.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-lineChart.tsi-light .lineChartSVG text {
+  fill: #000; }
+
+.tsi-lineChart.tsi-light .lineChartSVG circle {
+  fill: #000; }
+
+.tsi-lineChart.tsi-light .lineChartSVG .focusLine {
+  stroke: #b3d6f2; }
+
+.tsi-lineChart.tsi-light .lineChartSVG .guideLine {
+  stroke: #000; }
+
+.tsi-lineChart.tsi-light .lineChartSVG .standardYAxisText {
+  font-weight: lighter !important;
+  fill: #000 !important; }
+
+.tsi-lineChart.tsi-light .lineChartSVG .xAxisBaseline {
+  stroke: #000 !important; }
+
+.tsi-lineChart.tsi-light .yAxis path, .tsi-lineChart.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-lineChart.tsi-light .yAxis .tick text, .tsi-lineChart.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-lineChart.tsi-light .yAxis .tick line, .tsi-lineChart.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-lineChart.tsi-light .vHoverBox, .tsi-lineChart.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-lineChart.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-lineChart.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-lineChart.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-lineChart.tsi-light .hHoverText, .tsi-lineChart.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-lineChart.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-lineChart.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-lineChart.tsi-light .stacked g path, .tsi-lineChart.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-lineChart.tsi-light .tsi-gridButton rect:active, .tsi-lineChart.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-lineChart.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-lineChart.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-lineChart.tsi-light .yAxis path, .tsi-lineChart.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-lineChart.tsi-light .yAxis .tick text, .tsi-lineChart.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-lineChart.tsi-light rect, .tsi-lineChart.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-lineChart.tsi-light .stacked g path, .tsi-lineChart.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-lineChart.tsi-light .stacked rect, .tsi-lineChart.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-lineChart.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-lineChart.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-lineChart.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-lineChart.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-lineChart.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-lineChart.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-lineChart.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-lineChart.tsi-light .focus {
+  display: none; }
+
+.tsi-lineChart.tsi-light svg {
+  display: block; }
+
+.tsi-lineChart .tsi-lineChartEventsWrapper, .tsi-lineChart .tsi-lineChartStatesWrapper {
+  position: absolute;
+  pointer-events: none; }
+
+.tsi-lineChart .tsi-lineChartEventsWrapper svg, .tsi-lineChart .tsi-lineChartStatesWrapper svg {
+  display: block; }
+
+.tsi-lineChart .lineChartSVG .voronoiRect {
+  fill-opacity: 0;
+  cursor: crosshair; }
+
+.tsi-lineChart .lineChartSVG .voronoi path {
+  fill: none;
+  pointer-events: all;
+  cursor: crosshair; }
+
+.tsi-lineChart .lineChartSVG text {
+  font-size: 12px; }
+
+.tsi-lineChart .lineChartSVG path {
+  stroke-width: 2px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none; }
+
+.tsi-lineChart .lineChartSVG circle {
+  stroke-width: 1px;
+  pointer-events: none; }
+
+.tsi-lineChart .lineChartSVG .focusLine {
+  stroke-width: 1px !important;
+  pointer-events: none; }
+
+.tsi-lineChart .lineChartSVG .valueLine {
+  stroke-width: 3px !important; }
+
+.tsi-lineChart .lineChartSVG .valueArea {
+  stroke: none;
+  fill-opacity: .25; }
+
+.tsi-lineChart .lineChartSVG .gapLine {
+  stroke: grey !important;
+  stroke-width: 1px !important; }
+
+.tsi-gridComponent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: black; }
+
+.tsi-gridComponent.tsi-fromChart {
+  background: rgba(0, 0, 0, 0.3); }
+
+.tsi-gridComponent.tsi-fromChart .tsi-gridWrapper {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.3); }
+
+.tsi-gridComponent.tsi-fromChart .tsi-gridWrapper .tsi-closeButton {
+  display: block;
+  opacity: 1;
+  z-index: 1; }
+
+.tsi-gridComponent .tsi-gridWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
+.tsi-gridComponent .tsi-gridWrapper .tsi-closeButton {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  opacity: 0;
+  z-index: -1;
+  background: #ccc;
+  border: none;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.3); }
+
+.tsi-gridComponent .tsi-gridWrapper table {
+  font-family: monospace;
+  font-size: 11px;
+  border-collapse: collapse; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr td:focus, .tsi-gridComponent .tsi-gridWrapper table tr td:active, .tsi-gridComponent .tsi-gridWrapper table tr th:focus, .tsi-gridComponent .tsi-gridWrapper table tr th:active {
+  box-shadow: inset 0px 0px 1px 1px teal; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr th, .tsi-gridComponent .tsi-gridWrapper table tr .tsi-rowHeaderWrapper {
+  background: #ccc;
+  border: 1px solid #666;
+  padding: 2px;
+  white-space: nowrap; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr td {
+  background: white;
+  border: 1px solid #666;
+  padding: 2px; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr .tsi-rowHeaderWrapper {
+  border-left: 4px solid transparent;
+  white-space: nowrap;
+  position: relative;
+  padding-right: 40px; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr .tsi-rowHeaderWrapper .tsi-rowHeader {
+  max-width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr .tsi-rowHeaderWrapper .tsi-measureTypeWrapper {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  display: none; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr .tsi-rowHeaderWrapper .tsi-measureTypeWrapper .tsi-measureType {
+  color: #666; }
+
+.tsi-gridComponent .tsi-gridWrapper table tr:hover .tsi-measureTypeWrapper {
+  display: block; }
+
+.tsi-legend {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: calc(100% - 16px);
+  padding: 8px; }
+
+.tsi-legend.tsi-dark {
+  color: #fff;
+  fill: #fff; }
+
+.tsi-legend.tsi-dark path {
+  stroke: #fff; }
+
+.tsi-legend.tsi-dark .seriesLabel .seriesNameLabel select, .tsi-legend.tsi-dark .seriesLabel .splitByLabel select {
+  color: #999;
+  background-color: transparent;
+  border: 1px solid transparent; }
+
+.tsi-legend.tsi-dark .seriesLabel .seriesNameLabel select option, .tsi-legend.tsi-dark .seriesLabel .splitByLabel select option {
+  background: #0d0f0e; }
+
+.tsi-legend.tsi-dark .seriesLabel .seriesNameLabel.shown {
+  background-color: #0d0f0e; }
+
+.tsi-legend.tsi-dark .seriesLabel .splitByLabel:hover, .tsi-legend.tsi-dark .seriesLabel .splitByLabel.inFocus, .tsi-legend.tsi-dark .seriesLabel .seriesNameLabel:hover, .tsi-legend.tsi-dark .seriesLabel .seriesNameLabel.inFocus {
+  color: #60AAFF; }
+
+.tsi-legend.tsi-light {
+  color: #000;
+  fill: #000; }
+
+.tsi-legend.tsi-light path {
+  stroke: #000; }
+
+.tsi-legend.tsi-light .seriesLabel .seriesNameLabel select, .tsi-legend.tsi-light .seriesLabel .splitByLabel select {
+  color: #999;
+  background-color: transparent;
+  border: 1px solid transparent; }
+
+.tsi-legend.tsi-light .seriesLabel .seriesNameLabel select option, .tsi-legend.tsi-light .seriesLabel .splitByLabel select option {
+  background: #ffffff; }
+
+.tsi-legend.tsi-light .seriesLabel .seriesNameLabel.shown {
+  background-color: #ffffff; }
+
+.tsi-legend.tsi-light .seriesLabel .splitByLabel:hover, .tsi-legend.tsi-light .seriesLabel .splitByLabel.inFocus, .tsi-legend.tsi-light .seriesLabel .seriesNameLabel:hover, .tsi-legend.tsi-light .seriesLabel .seriesNameLabel.inFocus {
+  color: #136BFB; }
+
+.tsi-legend.compact {
+  height: 40px !important;
+  width: 100% !important;
+  position: absolute;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  border-right: none;
+  padding: 0; }
+
+.tsi-legend.compact .seriesLabel, .tsi-legend.compact .eventSeriesLabel {
+  border: none;
+  padding: 0;
+  text-align: center;
+  margin: 4px; }
+
+.tsi-legend.compact .seriesLabel:not(.shown), .tsi-legend.compact .eventSeriesLabel:not(.shown) {
+  border: none; }
+
+.tsi-legend.compact .seriesLabel .seriesNameLabel, .tsi-legend.compact .eventSeriesLabel .seriesNameLabel {
+  display: none; }
+
+.tsi-legend.compact .seriesLabel select, .tsi-legend.compact .eventSeriesLabel select {
+  display: none; }
+
+.tsi-legend.compact .seriesLabel .splitByLabel, .tsi-legend.compact .eventSeriesLabel .splitByLabel {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 0 4px 1px 4px;
+  border-radius: 3px;
+  height: 12px;
+  margin-top: -1px; }
+
+.tsi-legend.compact .seriesLabel .splitByLabel .colorKey, .tsi-legend.compact .eventSeriesLabel .splitByLabel .colorKey {
+  display: block;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  top: -3px; }
+
+.tsi-legend.compact .seriesLabel .splitByLabel h5, .tsi-legend.compact .eventSeriesLabel .splitByLabel h5 {
+  max-width: 100px;
+  margin-left: 16px;
+  text-align: left;
+  width: initial;
+  font-size: 12px; }
+
+.tsi-legend .seriesLabel, .tsi-legend .eventSeriesLabel, .tsi-legend .stateSeriesLabel {
+  margin: 8px; }
+
+.tsi-legend .seriesLabel .seriesNameLabel, .tsi-legend .seriesLabel .splitByLabel, .tsi-legend .eventSeriesLabel .seriesNameLabel, .tsi-legend .eventSeriesLabel .splitByLabel, .tsi-legend .stateSeriesLabel .seriesNameLabel, .tsi-legend .stateSeriesLabel .splitByLabel {
+  display: flex; }
+
+.tsi-legend .seriesLabel .seriesNameLabel:not(.shown), .tsi-legend .seriesLabel .splitByLabel:not(.shown), .tsi-legend .eventSeriesLabel .seriesNameLabel:not(.shown), .tsi-legend .eventSeriesLabel .splitByLabel:not(.shown), .tsi-legend .stateSeriesLabel .seriesNameLabel:not(.shown), .tsi-legend .stateSeriesLabel .splitByLabel:not(.shown) {
+  opacity: .3; }
+
+.tsi-legend .seriesLabel .seriesNameLabel.shown, .tsi-legend .seriesLabel .splitByLabel.shown, .tsi-legend .eventSeriesLabel .seriesNameLabel.shown, .tsi-legend .eventSeriesLabel .splitByLabel.shown, .tsi-legend .stateSeriesLabel .seriesNameLabel.shown, .tsi-legend .stateSeriesLabel .splitByLabel.shown {
+  opacity: 1; }
+
+.tsi-legend .seriesLabel .seriesNameLabel h4, .tsi-legend .seriesLabel .seriesNameLabel h5, .tsi-legend .seriesLabel .splitByLabel h4, .tsi-legend .seriesLabel .splitByLabel h5, .tsi-legend .eventSeriesLabel .seriesNameLabel h4, .tsi-legend .eventSeriesLabel .seriesNameLabel h5, .tsi-legend .eventSeriesLabel .splitByLabel h4, .tsi-legend .eventSeriesLabel .splitByLabel h5, .tsi-legend .stateSeriesLabel .seriesNameLabel h4, .tsi-legend .stateSeriesLabel .seriesNameLabel h5, .tsi-legend .stateSeriesLabel .splitByLabel h4, .tsi-legend .stateSeriesLabel .splitByLabel h5 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  font-weight: 400; }
+
+.tsi-legend .seriesLabel .seriesNameLabel h4, .tsi-legend .seriesLabel .splitByLabel h4, .tsi-legend .eventSeriesLabel .seriesNameLabel h4, .tsi-legend .eventSeriesLabel .splitByLabel h4, .tsi-legend .stateSeriesLabel .seriesNameLabel h4, .tsi-legend .stateSeriesLabel .splitByLabel h4 {
+  font-weight: 600;
+  font-size: 14px; }
+
+.tsi-legend .seriesLabel .seriesNameLabel h5, .tsi-legend .seriesLabel .splitByLabel h5, .tsi-legend .eventSeriesLabel .seriesNameLabel h5, .tsi-legend .eventSeriesLabel .splitByLabel h5, .tsi-legend .stateSeriesLabel .seriesNameLabel h5, .tsi-legend .stateSeriesLabel .splitByLabel h5 {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px; }
+
+.tsi-legend .seriesLabel .seriesNameLabel select, .tsi-legend .seriesLabel .splitByLabel select, .tsi-legend .eventSeriesLabel .seriesNameLabel select, .tsi-legend .eventSeriesLabel .splitByLabel select, .tsi-legend .stateSeriesLabel .seriesNameLabel select, .tsi-legend .stateSeriesLabel .splitByLabel select {
+  left: 20px;
+  width: 60px;
+  margin: 2px;
+  border: none;
+  position: absolute;
+  top: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 2px;
+  background: url(data:image/svg+xml;base64,DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxMyA3Ij4NCiAgPGRlZnM+DQogICAgPHN0eWxlPg0KICAgICAgLmNscy0xIHsNCiAgICAgICAgY2xpcC1wYXRoOiB1cmwoI2NsaXAtQ2hldnJvbl9saWdodF90aGVtZV8xKTsNCiAgICAgIH0NCg0KICAgICAgLmNscy0yLCAuY2xzLTMgew0KICAgICAgICBmaWxsOiBub25lOw0KICAgICAgICBzdHJva2UtbGluZWNhcDogc3F1YXJlOw0KICAgICAgICBzdHJva2UtbWl0ZXJsaW1pdDogMTsNCiAgICAgIH0NCg0KICAgICAgLmNscy0yIHsNCiAgICAgICAgc3Ryb2tlOiByZ2JhKDAsMCwwLDAuMSk7DQogICAgICB9DQoNCiAgICAgIC5jbHMtMyB7DQogICAgICAgIHN0cm9rZTogIzY2NjsNCiAgICAgIH0NCg0KICAgICAgLmNscy00IHsNCiAgICAgICAgZmlsbDogI2ZmZjsNCiAgICAgIH0NCiAgICA8L3N0eWxlPg0KICAgIDxjbGlwUGF0aCBpZD0iY2xpcC1DaGV2cm9uX2xpZ2h0X3RoZW1lXzEiPg0KICAgICAgPHJlY3Qgd2lkdGg9IjEzIiBoZWlnaHQ9IjciLz4NCiAgICA8L2NsaXBQYXRoPg0KICA8L2RlZnM+DQogIDxnIGlkPSJDaGV2cm9uX2xpZ2h0X3RoZW1lXzEiIGRhdGEtbmFtZT0iQ2hldnJvbiBsaWdodCB0aGVtZSDigJMgMSIgY2xhc3M9ImNscy0xIj4NCiAgICA8ZyBpZD0iR3JvdXBfMjIzNjkiIGRhdGEtbmFtZT0iR3JvdXAgMjIzNjkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xOTkuNiAtNjQ2LjI3MykiPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfNDQ3MzciIGRhdGEtbmFtZT0iUGF0aCA0NDczNyIgY2xhc3M9ImNscy0yIiBkPSJNOC41LDMzLjhsLTUsNSw1LDUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2Ny44IDY1NS44KSByb3RhdGUoLTkwKSIvPg0KICAgICAgPHBhdGggaWQ9IlBhdGhfNDQ3MzgiIGRhdGEtbmFtZT0iUGF0aCA0NDczOCIgY2xhc3M9ImNscy0zIiBkPSJNOC41LDMyLjhsLTUsNSw1LDUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2Ny44IDY1NS44KSByb3RhdGUoLTkwKSIvPg0KICAgIDwvZz4NCiAgPC9nPg0KPC9zdmc+DQo=) 90%/30% no-repeat;
+  background-position-y: 7px; }
+
+.tsi-legend .seriesLabel .seriesNameLabel select::-ms-expand, .tsi-legend .seriesLabel .splitByLabel select::-ms-expand, .tsi-legend .eventSeriesLabel .seriesNameLabel select::-ms-expand, .tsi-legend .eventSeriesLabel .splitByLabel select::-ms-expand, .tsi-legend .stateSeriesLabel .seriesNameLabel select::-ms-expand, .tsi-legend .stateSeriesLabel .splitByLabel select::-ms-expand {
+  display: none;
+  /* remove default arrow on ie10 and ie11 */ }
+
+.tsi-legend .seriesLabel .seriesNameLabel, .tsi-legend .eventSeriesLabel .seriesNameLabel, .tsi-legend .stateSeriesLabel .seriesNameLabel {
+  cursor: pointer;
+  padding: 0 4px;
+  position: relative; }
+
+.tsi-legend .seriesLabel .seriesNameLabel.tsi-nsb, .tsi-legend .eventSeriesLabel .seriesNameLabel.tsi-nsb, .tsi-legend .stateSeriesLabel .seriesNameLabel.tsi-nsb {
+  display: none; }
+
+.tsi-legend .seriesLabel .seriesNameLabel svg, .tsi-legend .eventSeriesLabel .seriesNameLabel svg, .tsi-legend .stateSeriesLabel .seriesNameLabel svg {
+  display: inline-block; }
+
+.tsi-legend .seriesLabel .seriesNameLabel select, .tsi-legend .eventSeriesLabel .seriesNameLabel select, .tsi-legend .stateSeriesLabel .seriesNameLabel select {
+  height: 17px;
+  width: 50px;
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  display: none; }
+
+.tsi-legend .seriesLabel .splitByLabel, .tsi-legend .eventSeriesLabel .splitByLabel, .tsi-legend .stateSeriesLabel .splitByLabel {
+  font-size: 16px;
+  padding: 0 4px;
+  position: relative;
+  height: 40px; }
+
+.tsi-legend .seriesLabel .splitByLabel.hidden, .tsi-legend .eventSeriesLabel .splitByLabel.hidden, .tsi-legend .stateSeriesLabel .splitByLabel.hidden {
+  height: 0px;
+  display: none;
+  padding: 0; }
+
+.tsi-legend .seriesLabel .splitByLabel .colorKey, .tsi-legend .eventSeriesLabel .splitByLabel .colorKey, .tsi-legend .stateSeriesLabel .splitByLabel .colorKey {
+  width: 12px;
+  height: 12px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border-radius: 6px;
+  position: relative;
+  top: -2px; }
+
+.tsi-legend .seriesLabel .seriesTypeLabel, .tsi-legend .eventSeriesLabel .seriesTypeLabel, .tsi-legend .stateSeriesLabel .seriesTypeLabel {
+  margin: 0;
+  cursor: pointer;
+  font-weight: normal;
+  padding-left: 8px; }
+
+.tsi-legend .seriesLabel .seriesTypeLabel.disabled, .tsi-legend .eventSeriesLabel .seriesTypeLabel.disabled, .tsi-legend .stateSeriesLabel .seriesTypeLabel.disabled {
+  display: none; }
+
+.tsi-legend .eventSeriesLabel:not(.shown), .tsi-legend .stateSeriesLabel:not(.shown) {
+  opacity: .3; }
+
+.tsi-legend .eventSeriesLabel.shown, .tsi-legend .stateSeriesLabel.shown {
+  opacity: 1; }
+
+.tsi-legend .eventSeriesLabel .seriesNameLabel, .tsi-legend .stateSeriesLabel .seriesNameLabel {
+  opacity: 1 !important; }
+
+.tsi-legend .eventSeriesLabel .seriesNameLabel h4, .tsi-legend .stateSeriesLabel .seriesNameLabel h4 {
+  width: 100% !important; }
+
+.tsi-eventSeries.tsi-dark .yAxis path, .tsi-eventSeries.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-eventSeries.tsi-dark .yAxis .tick text, .tsi-eventSeries.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-eventSeries.tsi-dark .yAxis .tick line, .tsi-eventSeries.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-eventSeries.tsi-dark .vHoverBox, .tsi-eventSeries.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-eventSeries.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-eventSeries.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-eventSeries.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-eventSeries.tsi-dark .hHoverText, .tsi-eventSeries.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-eventSeries.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-eventSeries.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-eventSeries.tsi-dark .stacked g path, .tsi-eventSeries.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-eventSeries.tsi-dark .tsi-gridButton rect:active, .tsi-eventSeries.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-eventSeries.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-eventSeries.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-eventSeries.tsi-dark .yAxis path, .tsi-eventSeries.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-eventSeries.tsi-dark .yAxis .tick text, .tsi-eventSeries.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-eventSeries.tsi-dark rect, .tsi-eventSeries.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-eventSeries.tsi-dark .stacked g path, .tsi-eventSeries.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-eventSeries.tsi-dark .stacked rect, .tsi-eventSeries.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-eventSeries.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-eventSeries.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-eventSeries.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-eventSeries.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-eventSeries.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-eventSeries.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-eventSeries.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-eventSeries.tsi-dark .focus {
+  display: none; }
+
+.tsi-eventSeries.tsi-dark svg {
+  display: block; }
+
+.tsi-eventSeries.tsi-light .yAxis path, .tsi-eventSeries.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-eventSeries.tsi-light .yAxis .tick text, .tsi-eventSeries.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-eventSeries.tsi-light .yAxis .tick line, .tsi-eventSeries.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-eventSeries.tsi-light .vHoverBox, .tsi-eventSeries.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-eventSeries.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-eventSeries.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-eventSeries.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-eventSeries.tsi-light .hHoverText, .tsi-eventSeries.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-eventSeries.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-eventSeries.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-eventSeries.tsi-light .stacked g path, .tsi-eventSeries.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-eventSeries.tsi-light .tsi-gridButton rect:active, .tsi-eventSeries.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-eventSeries.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-eventSeries.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-eventSeries.tsi-light .yAxis path, .tsi-eventSeries.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-eventSeries.tsi-light .yAxis .tick text, .tsi-eventSeries.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-eventSeries.tsi-light rect, .tsi-eventSeries.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-eventSeries.tsi-light .stacked g path, .tsi-eventSeries.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-eventSeries.tsi-light .stacked rect, .tsi-eventSeries.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-eventSeries.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-eventSeries.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-eventSeries.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-eventSeries.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-eventSeries.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-eventSeries.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-eventSeries.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-eventSeries.tsi-light .focus {
+  display: none; }
+
+.tsi-eventSeries.tsi-light svg {
+  display: block; }
+
+.tsi-eventSeries svg {
+  pointer-events: none;
+  overflow: visible; }
+
+.tsi-eventSeries svg rect {
+  pointer-events: all; }
+
+.tsi-contextMenu {
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: none;
+  position: absolute;
+  height: auto;
+  max-width: 200px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+  padding: 2px 0;
+  z-index: 1; }
+
+.tsi-contextMenu .tsi-actionElement {
+  padding: 4px 16px;
+  cursor: default;
+  font-size: 12px; }
+
+.tsi-contextMenu.tsi-dark {
+  color: #fff;
+  fill: #fff;
+  background: #0d0f0e; }
+
+.tsi-contextMenu.tsi-dark path {
+  stroke: #fff; }
+
+.tsi-contextMenu.tsi-dark .tsi-actionElement {
+  background-color: #0d0f0e;
+  color: #fff; }
+
+.tsi-contextMenu.tsi-dark .tsi-actionElement:hover, .tsi-contextMenu.tsi-dark .tsi-actionElement.inFocus {
+  background-color: #62666c; }
+
+.tsi-contextMenu.tsi-light {
+  color: #000;
+  fill: #000;
+  background: #ffffff; }
+
+.tsi-contextMenu.tsi-light path {
+  stroke: #000; }
+
+.tsi-contextMenu.tsi-light .tsi-actionElement {
+  background-color: #ffffff;
+  color: #000; }
+
+.tsi-contextMenu.tsi-light .tsi-actionElement:hover, .tsi-contextMenu.tsi-light .tsi-actionElement.inFocus {
+  background-color: #b3d6f2; }
+
+.tsi-tooltip {
+  pointer-events: none; }
+
+.tsi-tooltip.tsi-dark text {
+  fill: #fff; }
+
+.tsi-tooltip.tsi-dark rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-tooltip.tsi-dark .yAxis path, .tsi-tooltip.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-tooltip.tsi-dark .yAxis .tick text, .tsi-tooltip.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-tooltip.tsi-dark .yAxis .tick line, .tsi-tooltip.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-tooltip.tsi-dark .vHoverBox, .tsi-tooltip.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-tooltip.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-tooltip.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-tooltip.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-tooltip.tsi-dark .hHoverText, .tsi-tooltip.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-tooltip.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-tooltip.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-tooltip.tsi-dark .stacked g path, .tsi-tooltip.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-tooltip.tsi-dark .tsi-gridButton rect:active, .tsi-tooltip.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-tooltip.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-tooltip.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-tooltip.tsi-dark .yAxis path, .tsi-tooltip.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-tooltip.tsi-dark .yAxis .tick text, .tsi-tooltip.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-tooltip.tsi-dark rect, .tsi-tooltip.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-tooltip.tsi-dark .stacked g path, .tsi-tooltip.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-tooltip.tsi-dark .stacked rect, .tsi-tooltip.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-tooltip.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-tooltip.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-tooltip.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-tooltip.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-tooltip.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-tooltip.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-tooltip.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-tooltip.tsi-dark .focus {
+  display: none; }
+
+.tsi-tooltip.tsi-dark svg {
+  display: block; }
+
+.tsi-tooltip.tsi-light text {
+  fill: #000; }
+
+.tsi-tooltip.tsi-light rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-tooltip.tsi-light .yAxis path, .tsi-tooltip.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-tooltip.tsi-light .yAxis .tick text, .tsi-tooltip.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-tooltip.tsi-light .yAxis .tick line, .tsi-tooltip.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-tooltip.tsi-light .vHoverBox, .tsi-tooltip.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-tooltip.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-tooltip.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-tooltip.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-tooltip.tsi-light .hHoverText, .tsi-tooltip.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-tooltip.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-tooltip.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-tooltip.tsi-light .stacked g path, .tsi-tooltip.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-tooltip.tsi-light .tsi-gridButton rect:active, .tsi-tooltip.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-tooltip.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-tooltip.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-tooltip.tsi-light .yAxis path, .tsi-tooltip.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-tooltip.tsi-light .yAxis .tick text, .tsi-tooltip.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-tooltip.tsi-light rect, .tsi-tooltip.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-tooltip.tsi-light .stacked g path, .tsi-tooltip.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-tooltip.tsi-light .stacked rect, .tsi-tooltip.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-tooltip.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-tooltip.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-tooltip.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-tooltip.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-tooltip.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-tooltip.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-tooltip.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-tooltip.tsi-light .focus {
+  display: none; }
+
+.tsi-tooltip.tsi-light svg {
+  display: block; }
+
+.tsi-tooltip rect {
+  stroke: none; }
+
+.tsi-tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-availabilityChart {
+  min-height: 132px;
+  position: relative;
+  width: 100%; }
+
+.tsi-availabilityChart.tsi-dark {
+  background-color: #0d0f0e;
+  color: #fff; }
+
+.tsi-availabilityChart.tsi-dark .tsi-timePickerContainer {
+  background-color: #0d0f0e; }
+
+.tsi-availabilityChart.tsi-dark .tsi-timePickerContainer .tsi-timePickerChart {
+  background-color: #0d0f0e; }
+
+.tsi-availabilityChart.tsi-dark .tsi-zoomButton {
+  background-color: #0d0f0e;
+  color: #fff;
+  border: 1px solid #fff; }
+
+.tsi-availabilityChart.tsi-dark .tsi-zoomButton:active {
+  background-color: #62666c; }
+
+.tsi-availabilityChart.tsi-dark .tsi-dateTimeInputDiv input {
+  color: #fff; }
+
+.tsi-availabilityChart.tsi-dark .tsi-timePicker, .tsi-availabilityChart.tsi-dark .tsi-timePicker > option {
+  background-color: #0d0f0e;
+  color: #fff; }
+
+.tsi-availabilityChart.tsi-light {
+  background-color: #ffffff;
+  color: #000; }
+
+.tsi-availabilityChart.tsi-light .tsi-timePickerContainer {
+  background-color: #ffffff; }
+
+.tsi-availabilityChart.tsi-light .tsi-timePickerContainer .tsi-timePickerChart {
+  background-color: #ffffff; }
+
+.tsi-availabilityChart.tsi-light .tsi-zoomButton {
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000; }
+
+.tsi-availabilityChart.tsi-light .tsi-zoomButton:active {
+  background-color: #b3d6f2; }
+
+.tsi-availabilityChart.tsi-light .tsi-dateTimeInputDiv input {
+  color: #000; }
+
+.tsi-availabilityChart.tsi-light .tsi-timePicker, .tsi-availabilityChart.tsi-light .tsi-timePicker > option {
+  background-color: #ffffff;
+  color: #000; }
+
+.tsi-availabilityChart .tsi-timePickerContainer {
+  width: calc(100% - 4px);
+  height: calc(100% - 28px);
+  overflow: visible; }
+
+.tsi-availabilityChart .tsi-timePickerContainer .tsi-timePickerChart {
+  height: calc(100% - 4px); }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer {
+  top: 0;
+  width: calc(100% - 160px);
+  position: relative;
+  margin: 0 80px;
+  display: flex;
+  z-index: 1; }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer .tsi-timePicker {
+  padding: 2px;
+  margin-right: 40px;
+  position: relative;
+  top: 4px; }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer .tsi-timePicker option {
+  padding: 2px; }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer .tsi-dateTimeInputLabel {
+  display: inline-flex;
+  position: absolute;
+  font-size: 12px; }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer .tsi-dateTimeInputDiv {
+  display: inline-flex; }
+
+.tsi-availabilityChart .tsi-timePickerTextContainer .tsi-dateTimeInputDiv input {
+  width: 70px;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  position: relative;
+  top: 12px; }
+
+.tsi-availabilityChart .tsi-zoomButtonContainer {
+  display: flex;
+  position: absolute;
+  right: 40px;
+  bottom: 56px;
+  width: 20px;
+  flex-wrap: wrap; }
+
+.tsi-availabilityChart .tsi-zoomButtonContainer .tsi-zoomButton {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-top: -1px; }
+
+.tsi-availabilityChart .tsi-sparklineContainer {
+  background: none;
+  margin-top: -32px; }
+
+.tsi-availabilityChart .tsi-sparklineContainer path {
+  stroke: none !important; }
+
+.tsi-pieChart {
+  display: flex;
+  position: relative; }
+
+.tsi-pieChart.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-pieChart.tsi-dark .tsi-pieChartSVG text {
+  fill: #fff; }
+
+.tsi-pieChart.tsi-dark .tsi-pieChartSVG path {
+  stroke: #fff; }
+
+.tsi-pieChart.tsi-dark .yAxis path, .tsi-pieChart.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-pieChart.tsi-dark .yAxis .tick text, .tsi-pieChart.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-pieChart.tsi-dark .yAxis .tick line, .tsi-pieChart.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-pieChart.tsi-dark .vHoverBox, .tsi-pieChart.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-pieChart.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-pieChart.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-pieChart.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-pieChart.tsi-dark .hHoverText, .tsi-pieChart.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-pieChart.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-pieChart.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-pieChart.tsi-dark .stacked g path, .tsi-pieChart.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-pieChart.tsi-dark .tsi-gridButton rect:active, .tsi-pieChart.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-pieChart.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-pieChart.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-pieChart.tsi-dark .yAxis path, .tsi-pieChart.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-pieChart.tsi-dark .yAxis .tick text, .tsi-pieChart.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-pieChart.tsi-dark rect, .tsi-pieChart.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-pieChart.tsi-dark .stacked g path, .tsi-pieChart.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-pieChart.tsi-dark .stacked rect, .tsi-pieChart.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-pieChart.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-pieChart.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-pieChart.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-pieChart.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-pieChart.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-pieChart.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-pieChart.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-pieChart.tsi-dark .focus {
+  display: none; }
+
+.tsi-pieChart.tsi-dark svg {
+  display: block; }
+
+.tsi-pieChart.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-pieChart.tsi-light .tsi-pieChartSVG text {
+  fill: #000; }
+
+.tsi-pieChart.tsi-light .tsi-pieChartSVG path {
+  stroke: #000; }
+
+.tsi-pieChart.tsi-light .yAxis path, .tsi-pieChart.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-pieChart.tsi-light .yAxis .tick text, .tsi-pieChart.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-pieChart.tsi-light .yAxis .tick line, .tsi-pieChart.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-pieChart.tsi-light .vHoverBox, .tsi-pieChart.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-pieChart.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-pieChart.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-pieChart.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-pieChart.tsi-light .hHoverText, .tsi-pieChart.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-pieChart.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-pieChart.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-pieChart.tsi-light .stacked g path, .tsi-pieChart.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-pieChart.tsi-light .tsi-gridButton rect:active, .tsi-pieChart.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-pieChart.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-pieChart.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-pieChart.tsi-light .yAxis path, .tsi-pieChart.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-pieChart.tsi-light .yAxis .tick text, .tsi-pieChart.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-pieChart.tsi-light rect, .tsi-pieChart.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-pieChart.tsi-light .stacked g path, .tsi-pieChart.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-pieChart.tsi-light .stacked rect, .tsi-pieChart.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-pieChart.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-pieChart.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-pieChart.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-pieChart.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-pieChart.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-pieChart.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-pieChart.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-pieChart.tsi-light .focus {
+  display: none; }
+
+.tsi-pieChart.tsi-light svg {
+  display: block; }
+
+.tsi-pieChart .tsi-sliderWrapper {
+  opacity: .4;
+  width: calc(100% - 500px);
+  position: absolute;
+  bottom: 4px;
+  height: 50px;
+  right: 100px; }
+
+.tsi-pieChart .tsi-sliderWrapper.tsi-legendCompact {
+  width: calc(100% - 200px); }
+
+.tsi-pieChart .tsi-sliderWrapper:hover {
+  opacity: 1; }
+
+.tsi-sliderComponent {
+  position: absolute;
+  height: 55px;
+  bottom: 0px;
+  right: 0px; }
+
+.tsi-sliderComponent.tsi-dark .tsi-sliderTrack {
+  stroke: #fff; }
+
+.tsi-sliderComponent.tsi-dark .tsi-sliderHandle {
+  fill: white;
+  stroke: #60AAFF; }
+
+.tsi-sliderComponent.tsi-dark .tsi-sliderLabel {
+  background: #0d0f0e;
+  color: #fff; }
+
+.tsi-sliderComponent.tsi-light .tsi-sliderTrack {
+  stroke: #000; }
+
+.tsi-sliderComponent.tsi-light .tsi-sliderHandle {
+  fill: white;
+  stroke: #136BFB; }
+
+.tsi-sliderComponent.tsi-light .tsi-sliderLabel {
+  background: #ffffff;
+  color: #000; }
+
+.tsi-sliderComponent .tsi-sliderG .tsi-sliderTrack {
+  stroke-width: 1px; }
+
+.tsi-sliderComponent .tsi-sliderG .tsi-sliderTrackOverlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  stroke: transparent;
+  cursor: pointer; }
+
+.tsi-sliderComponent .tsi-sliderG .tsi-sliderHandle {
+  stroke-width: 1.5; }
+
+.tsi-sliderLabel {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  font-size: 11px; }
+
+.tsi-barChart {
+  display: flex;
+  position: relative; }
+
+.tsi-barChart.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-barChart.tsi-dark text {
+  fill: #fff; }
+
+.tsi-barChart.tsi-dark .tsi-barChartSVG .tsi-baseLine {
+  stroke: #fff; }
+
+.tsi-barChart.tsi-dark .tsi-barChartSVG .focusLine {
+  stroke: #62666c; }
+
+.tsi-barChart.tsi-dark .tsi-barChartSVG .aggregateLabelBox {
+  fill: #0d0f0e; }
+
+.tsi-barChart.tsi-dark .yAxis path, .tsi-barChart.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-barChart.tsi-dark .yAxis .tick text, .tsi-barChart.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-barChart.tsi-dark .yAxis .tick line, .tsi-barChart.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-barChart.tsi-dark .vHoverBox, .tsi-barChart.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-barChart.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-barChart.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-barChart.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-barChart.tsi-dark .hHoverText, .tsi-barChart.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-barChart.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-barChart.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-barChart.tsi-dark .stacked g path, .tsi-barChart.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-barChart.tsi-dark .tsi-gridButton rect:active, .tsi-barChart.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-barChart.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-barChart.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-barChart.tsi-dark .yAxis path, .tsi-barChart.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-barChart.tsi-dark .yAxis .tick text, .tsi-barChart.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-barChart.tsi-dark rect, .tsi-barChart.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-barChart.tsi-dark .stacked g path, .tsi-barChart.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-barChart.tsi-dark .stacked rect, .tsi-barChart.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-barChart.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-barChart.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-barChart.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-barChart.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-barChart.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-barChart.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-barChart.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-barChart.tsi-dark .focus {
+  display: none; }
+
+.tsi-barChart.tsi-dark svg {
+  display: block; }
+
+.tsi-barChart.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-barChart.tsi-light text {
+  fill: #000; }
+
+.tsi-barChart.tsi-light .tsi-barChartSVG .tsi-baseLine {
+  stroke: #000; }
+
+.tsi-barChart.tsi-light .tsi-barChartSVG .focusLine {
+  stroke: #b3d6f2; }
+
+.tsi-barChart.tsi-light .tsi-barChartSVG .aggregateLabelBox {
+  fill: #ffffff; }
+
+.tsi-barChart.tsi-light .yAxis path, .tsi-barChart.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-barChart.tsi-light .yAxis .tick text, .tsi-barChart.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-barChart.tsi-light .yAxis .tick line, .tsi-barChart.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-barChart.tsi-light .vHoverBox, .tsi-barChart.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-barChart.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-barChart.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-barChart.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-barChart.tsi-light .hHoverText, .tsi-barChart.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-barChart.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-barChart.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-barChart.tsi-light .stacked g path, .tsi-barChart.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-barChart.tsi-light .tsi-gridButton rect:active, .tsi-barChart.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-barChart.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-barChart.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-barChart.tsi-light .yAxis path, .tsi-barChart.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-barChart.tsi-light .yAxis .tick text, .tsi-barChart.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-barChart.tsi-light rect, .tsi-barChart.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-barChart.tsi-light .stacked g path, .tsi-barChart.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-barChart.tsi-light .stacked rect, .tsi-barChart.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-barChart.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-barChart.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-barChart.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-barChart.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-barChart.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-barChart.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-barChart.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-barChart.tsi-light .focus {
+  display: none; }
+
+.tsi-barChart.tsi-light svg {
+  display: block; }
+
+.tsi-barChart .tsi-barChartSliderWrapper {
+  opacity: .4;
+  width: calc(100% - 500px);
+  position: absolute;
+  bottom: 4px;
+  height: 50px;
+  right: 100px; }
+
+.tsi-barChart .tsi-barChartSliderWrapper.tsi-legendCompact {
+  width: calc(100% - 200px); }
+
+.tsi-barChart .tsi-barChartSliderWrapper:hover {
+  opacity: 1; }
+
+.tsi-barChart text {
+  font-size: 12px; }
+
+.tsi-barChart .tsi-barChartSVG .valueElement {
+  cursor: pointer;
+  stroke: none; }
+
+.tsi-barChart .tsi-barChartSVG .focusLine {
+  stroke-width: 1px;
+  pointer-events: none; }
+
+.tsi-hierarchy.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-hierarchy.tsi-dark .tsi-navTabWrapper {
+  border-bottom: 1px solid #fff; }
+
+.tsi-hierarchy.tsi-dark .tsi-hierarchyList li span:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.tsi-hierarchy.tsi-dark .tsi-hierarchyList li.tsi-selected {
+  background: #fff;
+  color: #1e2223; }
+
+.tsi-hierarchy.tsi-dark .tsi-navTab.tsi-selected {
+  border-bottom: 2px solid #fff; }
+
+.tsi-hierarchy.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-hierarchy.tsi-light .tsi-navTabWrapper {
+  border-bottom: 1px solid #000; }
+
+.tsi-hierarchy.tsi-light .tsi-hierarchyList li span:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.tsi-hierarchy.tsi-light .tsi-hierarchyList li.tsi-selected {
+  background: #000;
+  color: #f2f2f2; }
+
+.tsi-hierarchy.tsi-light .tsi-navTab.tsi-selected {
+  border-bottom: 2px solid #000; }
+
+.tsi-hierarchy .tsi-filterWrapper {
+  padding: 12px;
+  padding-bottom: 4px; }
+
+.tsi-hierarchy .tsi-filterWrapper input {
+  width: calc(100% - 12px);
+  padding: 4px; }
+
+.tsi-hierarchy .tsi-navTabWrapper .tsi-navTab {
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 14px;
+  cursor: pointer; }
+
+.tsi-hierarchy .tsi-hierarchyList ul {
+  list-style: none;
+  padding-left: 24px; }
+
+.tsi-hierarchy .tsi-hierarchyList ul.tsi-noPad {
+  padding: 8px;
+  margin: 0;
+  overflow: auto;
+  height: calc(100% - 68px); }
+
+.tsi-hierarchy .tsi-hierarchyList li:before {
+  content: '\25FF';
+  position: relative;
+  transform: rotate(-45deg);
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 14px;
+  top: -1px;
+  cursor: pointer; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-expanded:before {
+  content: '\25E2';
+  transform: rotate(0deg);
+  font-size: 12px;
+  margin-left: 2px;
+  cursor: pointer; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf {
+  font-weight: 600; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf:before {
+  content: '\B7   ';
+  padding: 0 4px; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf.draggable {
+  cursor: move; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf.draggable span {
+  cursor: move; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf.draggable:active {
+  cursor: move; }
+
+.tsi-hierarchy .tsi-hierarchyList li.tsi-leaf.draggable:active span {
+  cursor: move; }
+
+.tsi-hierarchy .tsi-noBefore:before {
+  content: '' !important; }
+
+.tsi-heatmapComponent svg {
+  shape-rendering: crispEdges; }
+
+.tsi-heatmapComponent.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-heatmapComponent.tsi-dark .yAxis path, .tsi-heatmapComponent.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .yAxis .tick text, .tsi-heatmapComponent.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .yAxis .tick line, .tsi-heatmapComponent.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .vHoverBox, .tsi-heatmapComponent.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-heatmapComponent.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-heatmapComponent.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-heatmapComponent.tsi-dark .hHoverText, .tsi-heatmapComponent.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-heatmapComponent.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .stacked g path, .tsi-heatmapComponent.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-heatmapComponent.tsi-dark .tsi-gridButton rect:active, .tsi-heatmapComponent.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-heatmapComponent.tsi-dark .yAxis path, .tsi-heatmapComponent.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-heatmapComponent.tsi-dark .yAxis .tick text, .tsi-heatmapComponent.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-heatmapComponent.tsi-dark rect, .tsi-heatmapComponent.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-heatmapComponent.tsi-dark .stacked g path, .tsi-heatmapComponent.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-heatmapComponent.tsi-dark .stacked rect, .tsi-heatmapComponent.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-heatmapComponent.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-heatmapComponent.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-heatmapComponent.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-heatmapComponent.tsi-dark .focus {
+  display: none; }
+
+.tsi-heatmapComponent.tsi-dark svg {
+  display: block; }
+
+.tsi-heatmapComponent.tsi-dark .tsi-heatmapWrapper .tsi-heatmapTimeLabels {
+  stroke: #fff; }
+
+.tsi-heatmapComponent.tsi-dark .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapTimeLabelTextBox text {
+  fill: #fff !important;
+  stroke: none;
+  font-size: 11px; }
+
+.tsi-heatmapComponent.tsi-dark .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapTimeLabelTextBox rect {
+  fill: #1e2223 !important; }
+
+.tsi-heatmapComponent.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-heatmapComponent.tsi-light .yAxis path, .tsi-heatmapComponent.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-heatmapComponent.tsi-light .yAxis .tick text, .tsi-heatmapComponent.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-heatmapComponent.tsi-light .yAxis .tick line, .tsi-heatmapComponent.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-heatmapComponent.tsi-light .vHoverBox, .tsi-heatmapComponent.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-heatmapComponent.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-heatmapComponent.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-heatmapComponent.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-heatmapComponent.tsi-light .hHoverText, .tsi-heatmapComponent.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-heatmapComponent.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-heatmapComponent.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-heatmapComponent.tsi-light .stacked g path, .tsi-heatmapComponent.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-heatmapComponent.tsi-light .tsi-gridButton rect:active, .tsi-heatmapComponent.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-heatmapComponent.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-heatmapComponent.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-heatmapComponent.tsi-light .yAxis path, .tsi-heatmapComponent.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-heatmapComponent.tsi-light .yAxis .tick text, .tsi-heatmapComponent.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-heatmapComponent.tsi-light rect, .tsi-heatmapComponent.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-heatmapComponent.tsi-light .stacked g path, .tsi-heatmapComponent.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-heatmapComponent.tsi-light .stacked rect, .tsi-heatmapComponent.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-heatmapComponent.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-heatmapComponent.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-heatmapComponent.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-heatmapComponent.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-heatmapComponent.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-heatmapComponent.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-heatmapComponent.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-heatmapComponent.tsi-light .focus {
+  display: none; }
+
+.tsi-heatmapComponent.tsi-light svg {
+  display: block; }
+
+.tsi-heatmapComponent.tsi-light .tsi-heatmapWrapper .tsi-heatmapTimeLabels {
+  stroke: #000; }
+
+.tsi-heatmapComponent.tsi-light .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapTimeLabelTextBox text {
+  fill: #000 !important;
+  stroke: none;
+  font-size: 11px; }
+
+.tsi-heatmapComponent.tsi-light .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapTimeLabelTextBox rect {
+  fill: #f2f2f2 !important; }
+
+.tsi-heatmapComponent .tsi-heatmapWrapper {
+  height: calc(100% - 10px);
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  overflow: visible; }
+
+.tsi-heatmapComponent .tsi-heatmapWrapper .tsi-heatmapTimeLabels {
+  width: calc(100% - 2px);
+  height: 100%;
+  pointer-events: none;
+  position: absolute;
+  bottom: 0px;
+  left: 02px; }
+
+.tsi-heatmapComponent .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapFocusLine {
+  stroke-width: 1px; }
+
+.tsi-heatmapComponent .tsi-heatmapWrapper .tsi-heatmapTimeLabels .tsi-heatmapTimeLabelTextBox {
+  text-anchor: middle; }
+
+.tsi-heatmapComponent .tsi-heatmapWrapper .tsi-heatmapCanvasWrapper {
+  left: 2px;
+  width: calc(100% - 2px);
+  position: absolute; }
+
+.tsi-heatmapCanvasWrapper {
+  overflow: visible; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark {
+  color: #fff;
+  background: #0d0f0e; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .yAxis path, .tsi-heatmapCanvasWrapper.tsi-dark .xAxis path {
+  stroke: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .yAxis .tick text, .tsi-heatmapCanvasWrapper.tsi-dark .xAxis .tick text {
+  fill: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .yAxis .tick line, .tsi-heatmapCanvasWrapper.tsi-dark .xAxis .tick line {
+  stroke: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .vHoverBox, .tsi-heatmapCanvasWrapper.tsi-dark .hHoverBox {
+  fill: #0d0f0e;
+  stroke: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hHoverText {
+  text-anchor: middle; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .vHoverText {
+  text-anchor: end; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hoverText {
+  stroke: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hHoverText, .tsi-heatmapCanvasWrapper.tsi-dark .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hHoverValueBar {
+  stroke: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hoverText {
+  fill: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .stacked g path, .tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton g path {
+  fill: #fff !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton rect:active, .tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton rect:focus {
+  stroke: #fff !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip text {
+  fill: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip rect {
+  fill: #0d0f0e;
+  stroke: #60AAFF; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .yAxis path, .tsi-heatmapCanvasWrapper.tsi-dark .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .yAxis .tick text, .tsi-heatmapCanvasWrapper.tsi-dark .xAxis .tick text {
+  user-select: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark rect, .tsi-heatmapCanvasWrapper.tsi-dark line {
+  shape-rendering: crispedges !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .stacked g path, .tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .stacked rect, .tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip {
+  pointer-events: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .focus {
+  display: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark svg {
+  display: block; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tsi-heatmapCanvas {
+  background-color: #0d0f0e; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tsi-heatmapColorLegend .highlightedValueLine {
+  stroke: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-dark .tsi-heatmapColorLegend text {
+  fill: #fff; }
+
+.tsi-heatmapCanvasWrapper.tsi-light {
+  color: #000;
+  background: #ffffff; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .yAxis path, .tsi-heatmapCanvasWrapper.tsi-light .xAxis path {
+  stroke: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .yAxis .tick text, .tsi-heatmapCanvasWrapper.tsi-light .xAxis .tick text {
+  fill: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .yAxis .tick line, .tsi-heatmapCanvasWrapper.tsi-light .xAxis .tick line {
+  stroke: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .vHoverBox, .tsi-heatmapCanvasWrapper.tsi-light .hHoverBox {
+  fill: #ffffff;
+  stroke: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hHoverText {
+  text-anchor: middle; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .vHoverText {
+  text-anchor: end; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hoverText {
+  stroke: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hHoverText, .tsi-heatmapCanvasWrapper.tsi-light .vHoverText {
+  font-size: 11px !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hHoverValueBar {
+  stroke: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hoverText {
+  fill: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .stacked g path, .tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton g path {
+  fill: #000 !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton rect:active, .tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton rect:focus {
+  stroke: #000 !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip text {
+  fill: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip rect {
+  fill: #ffffff;
+  stroke: #136BFB; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .yAxis path, .tsi-heatmapCanvasWrapper.tsi-light .xAxis path {
+  stroke-width: 1px !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .yAxis .tick text, .tsi-heatmapCanvasWrapper.tsi-light .xAxis .tick text {
+  user-select: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-light rect, .tsi-heatmapCanvasWrapper.tsi-light line {
+  shape-rendering: crispedges !important; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .stacked g path, .tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton g path {
+  stroke-width: 1;
+  pointer-events: all;
+  stroke: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .stacked rect, .tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton rect {
+  cursor: pointer;
+  fill: transparent;
+  stroke-width: 1; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tsi-gridButton g {
+  transform: scale(1) translate(0, 0);
+  fill-opacity: .8; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip {
+  pointer-events: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip text {
+  alignment-baseline: hanging; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip .title {
+  font-weight: bold;
+  font-size: 13px; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip .value {
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: lighter; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tooltip .value.visibleValue {
+  font-weight: bold; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .hHoverValueBar {
+  stroke-width: 4px; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .focus {
+  display: none; }
+
+.tsi-heatmapCanvasWrapper.tsi-light svg {
+  display: block; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tsi-heatmapCanvas {
+  background-color: #ffffff; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tsi-heatmapColorLegend .highlightedValueLine {
+  stroke: #000; }
+
+.tsi-heatmapCanvasWrapper.tsi-light .tsi-heatmapColorLegend text {
+  fill: #000; }
+
+.tsi-heatmapCanvasWrapper .tsi-heatmapColorLegend {
+  top: 0px;
+  position: absolute;
+  overflow: visible; }
+
+.tsi-heatmapCanvasWrapper .tsi-heatmapColorLegend text {
+  font-size: 11px;
+  text-anchor: end;
+  dominant-baseline: middle;
+  stroke: none; }
+
+.tsi-heatmapCanvasWrapper .tsi-heatmapColorLegend .highlightedValueLine {
+  fill: none;
+  stroke-width: 2px;
+  pointer-events: none; }
+
+.tsi-heatmapCanvasWrapper .tsi-heatmapColorLegend .highlightedValueText {
+  font-size: 12px; }
+
+.tsi-tableComponent {
+  position: relative;
+  text-align: left; }
+
+.tsi-tableComponent.tsi-dark {
+  background-color: #0d0f0e; }
+
+.tsi-tableComponent.tsi-dark .tsi-eventsTable {
+  background-color: #0d0f0e;
+  color: #fff; }
+
+.tsi-tableComponent.tsi-dark .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr:hover {
+  background-color: #62666c; }
+
+.tsi-tableComponent.tsi-dark .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr td {
+  border: 1px solid #fff; }
+
+.tsi-tableComponent.tsi-dark .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader {
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: #1e2223; }
+
+.tsi-tableComponent.tsi-dark .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader:hover {
+  background-color: #62666c; }
+
+.tsi-tableComponent.tsi-dark .tsi-tableLegend {
+  border-right-color: #fff;
+  background-color: #0d0f0e; }
+
+.tsi-tableComponent.tsi-dark .tsi-tableLegend .tsi-selectAllColumns .tsi-selectAllSomeState {
+  background-color: #fff; }
+
+.tsi-tableComponent.tsi-dark .tsi-tableLegend .tsi-columnToggle, .tsi-tableComponent.tsi-dark .tsi-tableLegend .tsi-selectAllColumns {
+  color: #fff; }
+
+.tsi-tableComponent.tsi-dark .tsi-tableLegend .tsi-columnToggle:hover, .tsi-tableComponent.tsi-dark .tsi-tableLegend .tsi-selectAllColumns:hover {
+  background-color: #62666c; }
+
+.tsi-tableComponent.tsi-light {
+  background-color: #ffffff; }
+
+.tsi-tableComponent.tsi-light .tsi-eventsTable {
+  background-color: #ffffff;
+  color: #000; }
+
+.tsi-tableComponent.tsi-light .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr:hover {
+  background-color: #b3d6f2; }
+
+.tsi-tableComponent.tsi-light .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr td {
+  border: 1px solid #000; }
+
+.tsi-tableComponent.tsi-light .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #f2f2f2; }
+
+.tsi-tableComponent.tsi-light .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader:hover {
+  background-color: #b3d6f2; }
+
+.tsi-tableComponent.tsi-light .tsi-tableLegend {
+  border-right-color: #000;
+  background-color: #ffffff; }
+
+.tsi-tableComponent.tsi-light .tsi-tableLegend .tsi-selectAllColumns .tsi-selectAllSomeState {
+  background-color: #000; }
+
+.tsi-tableComponent.tsi-light .tsi-tableLegend .tsi-columnToggle, .tsi-tableComponent.tsi-light .tsi-tableLegend .tsi-selectAllColumns {
+  color: #000; }
+
+.tsi-tableComponent.tsi-light .tsi-tableLegend .tsi-columnToggle:hover, .tsi-tableComponent.tsi-light .tsi-tableLegend .tsi-selectAllColumns:hover {
+  background-color: #b3d6f2; }
+
+.tsi-tableComponent .tsi-columnTypeIcon {
+  width: 16px;
+  height: 16px;
+  pointer-events: none; }
+
+.tsi-tableComponent .tsi-columnTypeIcon.String {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNiAxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB4PSIwcHgiIHk9IjBweCIgeG1sbnM6eG1sPSJodHRwOi8vd3d3LnczLm9yZy9YTUwvMTk5OC9uYW1lc3BhY2UiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSI+DQo8ZyBmaWxsPSIjQWJBZEFmIj4NCgk8cG9seWdvbiBwb2ludHM9IjgsOCAxMCw4IDEwLDcgOCw3IDgsNCA3LDQgNywxMiA4LDEyIDEwLDEyIDEwLDExIDgsMTEiIC8+DQoJPHJlY3QgeD0iMTAiIHk9IjgiIHdpZHRoPSIxIiBoZWlnaHQ9IjMiIC8+DQoJPHJlY3QgeD0iMTIiIHk9IjgiIHdpZHRoPSIxIiBoZWlnaHQ9IjMiIC8+DQoJPHJlY3QgeD0iMTMiIHk9IjciIHdpZHRoPSIzIiBoZWlnaHQ9IjEiIC8+DQoJPHJlY3QgeD0iMTMiIHk9IjExIiB3aWR0aD0iMyIgaGVpZ2h0PSIxIiAvPg0KCTxwb2x5Z29uIHBvaW50cz0iNSw3IDQsNyA0LDkgMiw5IDIsNyAxLDcgMSw5IDAsOSAwLDEyIDEsMTIgMSwxMCA1LDEwIDUsMTIgNiwxMiA2LDEwIDYsOSA1LDkiIC8+DQoJPHJlY3QgeD0iMiIgeT0iNSIgd2lkdGg9IjIiIGhlaWdodD0iMiIgLz4NCjwvZz4NCjwvc3ZnPg==); }
+
+.tsi-tableComponent .tsi-columnTypeIcon.DateTime {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNiAxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB4PSIwcHgiIHk9IjBweCIgeG1sbnM6eG1sPSJodHRwOi8vd3d3LnczLm9yZy9YTUwvMTk5OC9uYW1lc3BhY2UiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSI+DQo8cGF0aCBmaWxsPSIjQWJBZEFmIiBkPSJNIDEyIDIgViAxIGggLTEgdiAxIEggNSBWIDEgSCA0IHYgMSBIIDAgdiAxMyBoIDE2IFYgMiBIIDEyIFogTSAxNSAxNCBIIDEgViA2IGggMTQgViAxNCBaIE0gMTUgNSBIIDEgViAzIGggMyB2IDEgaCAxIFYgMyBoIDYgdiAxIGggMSBWIDMgaCAzIFYgNSBaIiAvPg0KPC9zdmc+); }
+
+.tsi-tableComponent .tsi-columnTypeIcon.Double {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNiAxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB4PSIwcHgiIHk9IjBweCIgeG1sbnM6eG1sPSJodHRwOi8vd3d3LnczLm9yZy9YTUwvMTk5OC9uYW1lc3BhY2UiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSI+DQo8cGF0aCBmaWxsPSIjQWJBZEFmIiBkPSJNIDE1IDYgViA1IGggLTQgViAxIGggLTEgdiA0IEggNiBWIDEgSCA1IHYgNCBIIDEgdiAxIGggNCB2IDQgSCAxIHYgMSBoIDQgdiA0IGggMSB2IC00IGggNCB2IDQgaCAxIHYgLTQgaCA0IHYgLTEgaCAtNCBWIDYgSCAxNSBaIE0gMTAgMTAgSCA2IFYgNiBoIDQgViAxMCBaIiAvPg0KPC9zdmc+); }
+
+.tsi-tableComponent .tsi-columnTypeIcon.Bool {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxNiAxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB4PSIwcHgiIHk9IjBweCIgeG1sbnM6eG1sPSJodHRwOi8vd3d3LnczLm9yZy9YTUwvMTk5OC9uYW1lc3BhY2UiIHhtbDpzcGFjZT0icHJlc2VydmUiIHZlcnNpb249IjEuMSI+DQo8ZyBmaWxsPSIjQWJBZEFmIj4NCgk8cG9seWdvbiBwb2ludHM9IjMsNSAxLDUgMSw2IDMsNiAzLDExIDQsMTEgNCw2IDYsNiA2LDUgNCw1IiAvPg0KCTxyZWN0IHg9IjgiIHk9IjMiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiAvPg0KCTxwb2x5Z29uIHBvaW50cz0iMTUsNiAxNSw1IDEyLDUgMTEsNSAxMSw2IDExLDcgMTEsOCAxMSwxMSAxMiwxMSAxMiw4IDE0LDggMTQsNyAxMiw3IDEyLDYiIC8+DQo8L2c+DQo8L3N2Zz4=); }
+
+.tsi-tableComponent .tsi-eventsTable {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: calc(100% - 245px);
+  height: 100%;
+  font-family: consolas;
+  font-size: 12px; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders {
+  overflow-x: hidden;
+  font-size: 14px;
+  white-space: nowrap;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader {
+  display: inline-block;
+  top: 0px;
+  height: 20px;
+  padding-left: 6px;
+  padding-right: 12px;
+  position: relative;
+  box-sizing: content-box; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader:hover {
+  cursor: pointer; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader .tsi-columnHeaderName {
+  display: inline-block;
+  font-weight: bold; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader .tsi-columnTypeIcon {
+  display: inline-flex;
+  vertical-align: bottom;
+  margin-left: 6px; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader .tsi-sortDirection {
+  display: inline-block;
+  margin-left: 6px;
+  width: 10px;
+  height: 10px;
+  right: 5px;
+  position: absolute; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-columnHeaders .tsi-columnHeader .tsi-sortColumnButton {
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  position: absolute;
+  border: none;
+  cursor: pointer; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-eventRowsContainer {
+  top: 0px;
+  overflow-y: scroll;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows {
+  margin-left: -1px;
+  white-space: nowrap;
+  border-collapse: collapse;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr {
+  height: 20px; }
+
+.tsi-tableComponent .tsi-eventsTable .tsi-eventRowsContainer .tsi-eventRows tr td {
+  min-width: 60px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.tsi-tableComponent .tsi-tableLegend {
+  overflow-y: scroll;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 244px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  height: 100%; }
+
+.tsi-tableComponent .tsi-tableLegend ul {
+  padding: 0;
+  margin: 8px; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-selectAllText {
+  left: 28px;
+  position: absolute;
+  pointer-events: none;
+  width: 124px;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns {
+  margin-bottom: 4px !important; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleName {
+  left: 13px !important; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-selectAllSomeState {
+  pointer-events: none;
+  position: absolute;
+  width: 9.5px;
+  height: 9.5px;
+  left: 7px;
+  top: 7px; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns {
+  height: 24px;
+  overflow: hidden;
+  list-style-type: none;
+  position: relative;
+  overflow-y: hidden;
+  white-space: nowrap; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleName, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleName {
+  left: 20px;
+  position: relative;
+  pointer-events: none;
+  width: calc(100% - 88px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: inline-block; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle:hover .tsi-onlyLabel, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns:hover .tsi-onlyLabel {
+  display: block; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleCheckbox, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleCheckbox {
+  pointer-events: none;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  left: 4px;
+  bottom: 1px;
+  position: relative;
+  background-size: 16px 160px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iZGlzYWJsZWQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE2IDE2NiI+DQogIDxkZWZzPg0KICAgIDxzdHlsZT4uY2xzLTF7ZmlsbDojZDNkNGQ0O30uY2xzLTJ7ZmlsbDojYjViN2I5O30uY2xzLTN7ZmlsbDojZjJmMmYyO30uY2xzLTR7ZmlsbDojODA4Mzg3O30uY2xzLTV7ZmlsbDojMDBCMjk0O30uY2xzLTZ7ZmlsbDojMDA4MjcyO308L3N0eWxlPg0KICA8L2RlZnM+DQogIDx0aXRsZT5VbnRpdGxlZC0yPC90aXRsZT4NCiAgPGcgaWQ9ImRpc2FibGVkLTIiIGRhdGEtbmFtZT0iZGlzYWJsZWQiPg0KICAgIDxnIGlkPSJjaGVja2JveDpfZGVmYXVsdCIgZGF0YS1uYW1lPSJjaGVja2JveDogZGVmYXVsdCI+DQogICAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0xNSwxMjF2MTRIMVYxMjFIMTVtMS0xSDB2MTZIMTZWMTIwaDBaIi8+DQogICAgPC9nPg0KICAgIDxsaW5lIGNsYXNzPSJjbHMtMiIgeDE9IjEiIHkxPSIxMjEiIHgyPSIxNSIgeTI9IjEyMSIvPg0KICAgIDxwb2x5bGluZSBjbGFzcz0iY2xzLTMiIHBvaW50cz0iMTUgMTIxIDE1IDEzNSAxIDEzNSAxIDEyMSAxNSAxMjEiLz4NCiAgPC9nPg0KICA8ZyBpZD0iZGlzYWJsZWQtY2hlY2tlZCI+DQogICAgPGcgaWQ9ImNoZWNrYm94Ol9kZWZhdWx0LTIiIGRhdGEtbmFtZT0iY2hlY2tib3g6IGRlZmF1bHQiPg0KICAgICAgPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMTUsMTUxdjE0SDFWMTUxSDE1bTEtMUgwdjE2SDE2VjE1MGgwWiIvPg0KICAgIDwvZz4NCiAgICA8cG9seWxpbmUgY2xhc3M9ImNscy0zIiBwb2ludHM9IjE1IDE1MSAxNSAxNjUgMSAxNjUgMSAxNTEgMTUgMTUxIi8+DQogICAgPHBvbHlnb24gY2xhc3M9ImNscy00IiBwb2ludHM9IjYuMyAxNjIuNTggMi40NiAxNTguNTcgMy41NCAxNTcuNTQgNi4zIDE2MC40MiAxMi40NiAxNTMuOTggMTMuNTQgMTU1LjAyIDYuMyAxNjIuNTgiLz4NCiAgPC9nPg0KICA8ZyBpZD0iaG92ZXItMiIgZGF0YS1uYW1lPSJob3ZlciI+DQogICAgPGcgaWQ9ImNoZWNrYm94Ol9kZWZhdWx0LTMiIGRhdGEtbmFtZT0iY2hlY2tib3g6IGRlZmF1bHQiPg0KICAgICAgPHBhdGggY2xhc3M9ImNscy01IiBkPSJNMTUsNjFWNzVIMVY2MUgxNW0xLTFIMFY3NkgxNlY2MGgwWiIvPg0KICAgIDwvZz4NCiAgPC9nPg0KICA8ZyBpZD0iaG92ZXItY2hlY2tlZCI+DQogICAgPGcgaWQ9ImNoZWNrYm94Ol9kZWZhdWx0LTQiIGRhdGEtbmFtZT0iY2hlY2tib3g6IGRlZmF1bHQiPg0KICAgICAgPHBhdGggY2xhc3M9ImNscy01IiBkPSJNMTUsOTF2MTRIMVY5MUgxNW0xLTFIMHYxNkgxNlY5MGgwWiIvPg0KICAgIDwvZz4NCiAgICA8cG9seWdvbiBjbGFzcz0iY2xzLTYiIHBvaW50cz0iNi4zIDEwMi41OCAyLjQ2IDk4LjU4IDMuNTQgOTcuNTQgNi4zIDEwMC40MiAxMi40NiA5My45OCAxMy41NCA5NS4wMiA2LjMgMTAyLjU4Ii8+DQogIDwvZz4NCiAgPGcgaWQ9Im5vcm1hbC0yIiBkYXRhLW5hbWU9Im5vcm1hbCI+DQogICAgPGcgaWQ9ImNoZWNrYm94Ol9kZWZhdWx0LTUiIGRhdGEtbmFtZT0iY2hlY2tib3g6IGRlZmF1bHQiPg0KICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMTUsMVYxNUgxVjFIMTVtMS0xSDBWMTZIMTZWMGgwWiIvPg0KICAgIDwvZz4NCiAgPC9nPg0KICA8ZyBpZD0ibm9ybWFsLWNoZWNrZWQiPg0KICAgIDxnIGlkPSJjaGVja2JveDpfZGVmYXVsdC02IiBkYXRhLW5hbWU9ImNoZWNrYm94OiBkZWZhdWx0Ij4NCiAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTE1LDMxVjQ1SDFWMzFIMTVtMS0xSDBWNDZIMTZWMzBoMFoiLz4NCiAgICA8L2c+DQogICAgPHBvbHlnb24gY2xhc3M9ImNscy02IiBwb2ludHM9IjYuMyA0Mi41OCAyLjQ2IDM4LjU4IDMuNTQgMzcuNTQgNi4zIDQwLjQyIDEyLjQ2IDMzLjk4IDEzLjU0IDM1LjAyIDYuMyA0Mi41OCIvPg0KICA8L2c+DQo8L3N2Zz4=); }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnTypeIcon, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnTypeIcon {
+  display: inline-block;
+  bottom: 2px;
+  position: relative;
+  left: 12px; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleButton, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleButton {
+  z-index: 0;
+  background-color: transparent;
+  width: 100%;
+  left: 0px;
+  height: 100%;
+  position: absolute;
+  border: none; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleButton .tsi-onlyLabel, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleButton .tsi-onlyLabel {
+  display: none;
+  opacity: .6;
+  right: 4px;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+  margin-top: -7px;
+  font-size: 14px; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleButton .tsi-onlyLabel:hover, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleButton .tsi-onlyLabel:hover {
+  text-decoration: underline; }
+
+.tsi-tableComponent .tsi-tableLegend .tsi-columnToggle .tsi-columnToggleButton:hover .tsi-onlyLabel, .tsi-tableComponent .tsi-tableLegend .tsi-selectAllColumns .tsi-columnToggleButton:hover .tsi-onlyLabel {
+  display: block !important; }
+
+/*# sourceMappingURL=tsiclient.css.map*/
+.telemetry-chart-container {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-grow: 1;
+  overflow: hidden; }
+  .telemetry-chart-container .chart-container {
+    min-height: 150px;
+    min-height: 9.375rem;
+    flex-grow: 1; }
+  .telemetry-chart-container .options-container {
+    display: flex;
+    flex-flow: row wrap; }
+    .telemetry-chart-container .options-container .telemetry-option {
+      display: block;
+      background: none;
+      text-transform: capitalize;
+      cursor: pointer;
+      border: none;
+      border-bottom: 2px solid transparent;
+      font-size: 14px;
+      font-size: 0.875rem;
+      padding: 5px;
+      padding: 0.3125rem;
+      margin: 0px 5px 5px 10px;
+      margin: 0rem 0.3125rem 0.3125rem 0.625rem; }
+  .theme-dark .telemetry-chart-container text {
+    fill: #fff; }
+  .theme-dark .telemetry-chart-container .tsi-lineChart {
+    background: transparent; }
+  .theme-dark .telemetry-chart-container .options-container .telemetry-option {
+    color: #afb9c3; }
+    .theme-dark .telemetry-chart-container .options-container .telemetry-option:hover {
+      border-color: #afb9c3; }
+    .theme-dark .telemetry-chart-container .options-container .telemetry-option.active {
+      color: #fff;
+      border-bottom: 2px solid #fff; }
+  .theme-light .telemetry-chart-container text {
+    fill: #333; }
+  .theme-light .telemetry-chart-container .tsi-lineChart {
+    background: transparent; }
+  .theme-light .telemetry-chart-container .options-container .telemetry-option {
+    color: #666; }
+    .theme-light .telemetry-chart-container .options-container .telemetry-option:hover {
+      border-color: #666; }
+    .theme-light .telemetry-chart-container .options-container .telemetry-option.active {
+      color: #333;
+      border-bottom: 2px solid #333; }

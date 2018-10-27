@@ -1,0 +1,42 @@
+.example-flyout-container {
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .example-flyout-container .example-flyout-header {
+    padding: 12px 0px;
+    padding: 0.75rem 0rem; }
+  .example-flyout-container .form-placeholder {
+    font-style: italic;
+    margin: 60px 30px;
+    margin: 3.75rem 1.875rem; }
+  .example-flyout-container .example-flyout-error {
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .example-flyout-container .wait-indicator {
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .example-flyout-container .summary-icon svg {
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .theme-dark .example-flyout-container {
+    color: #afb9c3; }
+    .theme-dark .example-flyout-container .example-flyout-header {
+      color: #fff; }
+    .theme-dark .example-flyout-container .example-flyout-error {
+      border-color: #fc540a; }
+    .theme-dark .example-flyout-container .summary-icon svg {
+      fill: #fff; }
+  .theme-light .example-flyout-container {
+    color: #666; }
+    .theme-light .example-flyout-container .example-flyout-header {
+      color: #333; }
+    .theme-light .example-flyout-container .example-flyout-error {
+      border-color: #fc540a; }
+    .theme-light .example-flyout-container .summary-icon svg {
+      fill: #333; }

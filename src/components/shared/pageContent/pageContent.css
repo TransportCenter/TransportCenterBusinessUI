@@ -1,0 +1,9 @@
+.page-content-container {
+  overflow: auto;
+  flex-grow: 1;
+  height: 100%;
+  position: relative; }
+  .theme-dark .page-content-container {
+    background: #121416; }
+  .theme-light .page-content-container {
+    background: #fff; }

@@ -1,0 +1,85 @@
+.settings-workflow-container .app-version {
+  margin-top: 20px;
+  margin-top: 1.25rem; }
+
+.settings-workflow-container .toggle-theme-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  text-decoration: underline;
+  display: block;
+  cursor: pointer;
+  margin: 20px 0px;
+  margin: 1.25rem 0rem;
+  font-size: 16px;
+  font-size: 1rem; }
+  .settings-workflow-container .toggle-theme-btn:hover {
+    text-decoration: none; }
+
+.settings-workflow-container .flyout-section-content {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+.settings-workflow-container .simulation-toggle {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 18px;
+  margin-top: 1.125rem;
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .settings-workflow-container .simulation-toggle .simulation-toggle-button {
+    margin-right: 10px;
+    margin-right: 0.625rem; }
+  .settings-workflow-container .simulation-toggle .simulation-toggle-label {
+    display: inline-block; }
+
+.settings-workflow-container .diagnostics-content {
+  padding-bottom: 0px; }
+  .settings-workflow-container .diagnostics-content .privacy-link {
+    display: block;
+    margin: 20px 0px;
+    margin: 1.25rem 0rem; }
+  .settings-workflow-container .diagnostics-content .toggle {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 18px;
+    margin-top: 1.125rem;
+    font-size: 14px;
+    font-size: 0.875rem; }
+    .settings-workflow-container .diagnostics-content .toggle .button {
+      margin-right: 10px;
+      margin-right: 0.625rem; }
+    .settings-workflow-container .diagnostics-content .toggle .label {
+      display: inline-block; }
+
+.settings-workflow-container .btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 48px;
+  margin-top: 3rem;
+  height: 30px;
+  height: 1.875rem;
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .settings-workflow-container .btn-container svg {
+    height: 10px;
+    height: 0.625rem; }
+
+.theme-dark .settings-workflow-container .close-button .btn-icon svg {
+  stroke: #afb9c3; }
+
+.theme-dark .settings-workflow-container .toggle-theme-btn {
+  color: #fff; }
+
+.theme-dark .settings-workflow-container .flyout-section-content a {
+  color: #fff; }
+
+.theme-light .settings-workflow-container .close-button .btn-icon svg {
+  stroke: #333; }
+
+.theme-light .settings-workflow-container .toggle-theme-btn {
+  color: #333; }
+
+.theme-light .settings-workflow-container .flyout-section-content a {
+  color: #333; }

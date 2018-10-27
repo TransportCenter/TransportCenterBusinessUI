@@ -1,0 +1,36 @@
+.disable-rule-flyout-container .rule-property-container {
+  border: none;
+  margin-top: 20px;
+  margin-top: 1.25rem; }
+
+.disable-rule-flyout-container .padded-top-bottom {
+  margin-left: 0px;
+  padding: 24px 0px;
+  padding: 1.5rem 0rem; }
+
+.disable-rule-flyout-container .rule-status-error {
+  border: 1px transparent solid;
+  margin: 12px 0px;
+  margin: 0.75rem 0rem;
+  padding: 16px;
+  padding: 1rem; }
+
+.disable-rule-flyout-container .summary-icon svg {
+  height: 16px;
+  height: 1rem;
+  width: 16px;
+  width: 1rem;
+  margin-left: 8px;
+  margin-left: 0.5rem; }
+
+.theme-dark .disable-rule-flyout-container .rule-status-error {
+  border-color: #fc540a; }
+
+.theme-dark .disable-rule-flyout-container .summary-icon svg {
+  fill: #fff; }
+
+.theme-light .disable-rule-flyout-container .rule-status-error {
+  border-color: #fc540a; }
+
+.theme-light .disable-rule-flyout-container .summary-icon svg {
+  fill: #333; }

@@ -1,0 +1,85 @@
+.device-jobs-container {
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding: 12px 0px;
+  padding: 0.75rem 0rem; }
+  .device-jobs-container .section-header {
+    font-size: 16px;
+    font-size: 1rem; }
+  .device-jobs-container .form-group-label {
+    font-size: 16px;
+    font-size: 1rem; }
+  .device-jobs-container .help-message {
+    margin-bottom: 4px;
+    margin-bottom: 0.25rem; }
+  .device-jobs-container .radio-container {
+    margin-top: 0px; }
+    .device-jobs-container .radio-container .form-group-label {
+      font-size: 14px;
+      font-size: 0.875rem; }
+  .device-jobs-container .row .cell.col-1 {
+    width: 16px;
+    width: 1rem; }
+  .device-jobs-container .row .cell.col-3 {
+    width: 100px;
+    width: 6.25rem; }
+    .device-jobs-container .row .cell.col-3 input {
+      width: 100px;
+      width: 6.25rem; }
+  .device-jobs-container .row .cell.text-only {
+    padding-top: 4px;
+    padding-top: 0.25rem; }
+  .device-jobs-container .row.action-row {
+    border: 0;
+    padding: 4px 0px;
+    padding: 0.25rem 0rem; }
+    .device-jobs-container .row.action-row .btn {
+      justify-content: flex-start;
+      padding: 0px;
+      padding: 0rem; }
+  .device-jobs-container .row.error-data-row {
+    border-bottom: 0 !important; }
+  .device-jobs-container .row.error-msg-row {
+    padding-top: 0px;
+    padding-top: 0rem; }
+  .device-jobs-container .icon-only-btn {
+    min-width: 0;
+    padding: 0;
+    width: 20px;
+    width: 1.25rem; }
+  .device-jobs-container .data-grid {
+    margin-top: 16px;
+    margin-top: 1rem; }
+  .device-jobs-container .device-jobs-info {
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .device-jobs-container .device-jobs-error {
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .device-jobs-container .wait-indicator {
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .device-jobs-container .summary-icon svg {
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .theme-dark .device-jobs-container {
+    color: #afb9c3; }
+    .theme-dark .device-jobs-container .device-jobs-error {
+      border-color: #fc540a; }
+    .theme-dark .device-jobs-container .summary-icon svg {
+      fill: #fff; }
+  .theme-light .device-jobs-container {
+    color: #666; }
+    .theme-light .device-jobs-container .device-jobs-error {
+      border-color: #fc540a; }
+    .theme-light .device-jobs-container .summary-icon svg {
+      fill: #333; }

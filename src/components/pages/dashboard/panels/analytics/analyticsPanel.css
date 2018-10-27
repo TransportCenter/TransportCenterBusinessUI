@@ -1,0 +1,61 @@
+.analytics-panel-container {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%; }
+  .analytics-panel-container .analytics-cell {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    height: 50%; }
+    .analytics-panel-container .analytics-cell.full-width {
+      width: 100%; }
+    .analytics-panel-container .analytics-cell .critical-alerts {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 1;
+      font-family: "Selawik Light";
+      font-size: 60px;
+      font-size: 3.75rem; }
+      .analytics-panel-container .analytics-cell .critical-alerts .analytics-percentage-container {
+        display: flex;
+        align-items: flex-end; }
+        .analytics-panel-container .analytics-cell .critical-alerts .analytics-percentage-container .analytics-percentage-sign {
+          font-size: 40px;
+          font-size: 2.5rem; }
+  .analytics-panel-container .chart-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center; }
+  .analytics-panel-container .time-series-explorer {
+    display: block;
+    padding: 0px 0px 10px 0px;
+    padding: 0rem 0rem 0.625rem 0rem; }
+  .theme-dark .analytics-panel-container text {
+    fill: #fff; }
+  .theme-dark .analytics-panel-container .tsi-barChart {
+    background: transparent; }
+    .theme-dark .analytics-panel-container .tsi-barChart text {
+      fill: #fff !important; }
+  .theme-dark .analytics-panel-container .tsi-pieChart {
+    background: transparent; }
+    .theme-dark .analytics-panel-container .tsi-pieChart .tsi-pieChartSVG path {
+      stroke: #1b1d1f; }
+  .theme-dark .analytics-panel-container .analytics-cell .analytics-header {
+    color: #afb9c3; }
+  .theme-dark .analytics-panel-container .analytics-cell .critical-alerts .analytics-header {
+    color: #fff; }
+  .theme-light .analytics-panel-container text {
+    fill: #333; }
+  .theme-light .analytics-panel-container .tsi-barChart {
+    background: transparent; }
+    .theme-light .analytics-panel-container .tsi-barChart text {
+      fill: #333 !important; }
+  .theme-light .analytics-panel-container .tsi-pieChart {
+    background: transparent; }
+    .theme-light .analytics-panel-container .tsi-pieChart .tsi-pieChartSVG path {
+      stroke: #fff; }
+  .theme-light .analytics-panel-container .analytics-cell .analytics-header {
+    color: #666; }
+  .theme-light .analytics-panel-container .analytics-cell .critical-alerts .analytics-header {
+    color: #333; }

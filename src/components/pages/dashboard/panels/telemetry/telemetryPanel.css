@@ -1,0 +1,8 @@
+.telemetry-panel-container {
+  display: flex;
+  flex-flow: column nowrap; }
+
+.time-series-explorer {
+  display: block;
+  padding: 0px 0px 10px 0px;
+  padding: 0rem 0rem 0.625rem 0rem; }

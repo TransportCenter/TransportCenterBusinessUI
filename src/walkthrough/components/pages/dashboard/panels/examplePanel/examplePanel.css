@@ -1,0 +1,8 @@
+.example-panel-container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 !important; }
+  .theme-dark .example-panel-container {
+    color: #afb9c3; }
+  .theme-light .example-panel-container {
+    color: #666; }

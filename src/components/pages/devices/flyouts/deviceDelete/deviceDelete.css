@@ -1,0 +1,66 @@
+.device-delete-container {
+  font-size: 14px;
+  font-size: 0.875rem; }
+  .device-delete-container .device-delete-header {
+    padding: 12px 0px;
+    padding: 0.75rem 0rem; }
+  .device-delete-container .toggle-btn-div {
+    margin: 12px 0px;
+    margin: 0.75rem 0rem; }
+  .device-delete-container .simulated-device-selected {
+    display: flex;
+    align-items: flex-start;
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+    .device-delete-container .simulated-device-selected .info-icon svg {
+      height: 16px;
+      height: 1rem;
+      width: 16px;
+      width: 1rem;
+      padding: 0px 8px;
+      padding: 0rem 0.5rem; }
+  .device-delete-container .device-delete-error {
+    border: 1px transparent solid;
+    margin: 12px 0px;
+    margin: 0.75rem 0rem;
+    padding: 16px;
+    padding: 1rem; }
+  .device-delete-container .wait-indicator {
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .device-delete-container .summary-icon svg {
+    height: 16px;
+    height: 1rem;
+    width: 16px;
+    width: 1rem;
+    margin-left: 8px;
+    margin-left: 0.5rem; }
+  .theme-dark .device-delete-container {
+    color: #afb9c3; }
+    .theme-dark .device-delete-container .device-delete-header {
+      color: #fff; }
+    .theme-dark .device-delete-container .simulated-device-selected {
+      color: #fff;
+      border-color: #afb9c3; }
+      .theme-dark .device-delete-container .simulated-device-selected .info-icon svg {
+        fill: #fff; }
+    .theme-dark .device-delete-container .device-delete-error {
+      border-color: #fc540a; }
+    .theme-dark .device-delete-container .summary-icon svg {
+      fill: #fff; }
+  .theme-light .device-delete-container {
+    color: #666; }
+    .theme-light .device-delete-container .device-delete-header {
+      color: #333; }
+    .theme-light .device-delete-container .simulated-device-selected {
+      color: #333;
+      border-color: #666; }
+      .theme-light .device-delete-container .simulated-device-selected .info-icon svg {
+        fill: #333; }
+    .theme-light .device-delete-container .device-delete-error {
+      border-color: #fc540a; }
+    .theme-light .device-delete-container .summary-icon svg {
+      fill: #333; }

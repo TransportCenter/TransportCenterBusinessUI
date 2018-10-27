@@ -1,0 +1,6 @@
+.rules-container {
+  padding: 20px; }
+  .theme-dark .rules-container .status {
+    color: #fff; }
+  .theme-light .rules-container .status {
+    color: #333; }

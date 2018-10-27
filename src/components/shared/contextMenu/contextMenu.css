@@ -1,0 +1,33 @@
+.context-menu-container {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  height: 48px;
+  height: 3rem; }
+  .context-menu-container .context-menu-align-container {
+    display: flex;
+    flex-grow: 1; }
+    .context-menu-container .context-menu-align-container.left {
+      justify-content: flex-start; }
+    .context-menu-container .context-menu-align-container.right {
+      justify-content: flex-end; }
+  .context-menu-container .last-updated-container {
+    margin: 0;
+    align-items: center;
+    padding: 0px 10px;
+    padding: 0rem 0.625rem; }
+  .theme-dark .context-menu-container {
+    border-bottom: 1px solid #383b3e; }
+    .theme-dark .context-menu-container .btn:hover {
+      background-color: #1b1d1f;
+      color: #fff; }
+      .theme-dark .context-menu-container .btn:hover svg {
+        fill: #fff; }
+  .theme-light .context-menu-container {
+    border-bottom: 1px solid #c8c8c8; }
+    .theme-light .context-menu-container .btn:hover {
+      background-color: #eaeaea;
+      color: #333; }
+      .theme-light .context-menu-container .btn:hover svg {
+        fill: #666; }

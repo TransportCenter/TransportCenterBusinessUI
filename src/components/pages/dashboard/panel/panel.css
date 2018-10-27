@@ -1,0 +1,78 @@
+.panel-container {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.07); }
+  .panel-container .panel-header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; }
+    .panel-container .panel-header .panel-header-label {
+      flex-shrink: 0;
+      font-size: 1em;
+      font-weight: normal;
+      margin: 0;
+      padding: 10px; }
+  .panel-container .panel-content {
+    flex-grow: 1;
+    padding: 10px;
+    overflow: auto;
+    position: relative; }
+  .panel-container .panel-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .panel-container .panel-overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Use flex to center the loading indicator */
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .panel-container .panel-overlay-container.error-overlay {
+      overflow: auto; }
+    .panel-container .panel-overlay-container .panel-error-container {
+      width: 90%;
+      text-align: center;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center; }
+  .theme-dark .panel-container .panel-header {
+    background-color: #242628;
+    color: #fff; }
+  .theme-dark .panel-container .panel-content,
+  .theme-dark .panel-container .panel-message {
+    background-color: #1b1d1f; }
+  .theme-dark .panel-container .panel-overlay-container {
+    background-color: rgba(0, 0, 0, 0.5); }
+    .theme-dark .panel-container .panel-overlay-container.error-overlay {
+      background-color: #1b1d1f; }
+    .theme-dark .panel-container .panel-overlay-container .panel-error-container {
+      color: #fff; }
+  .theme-light .panel-container .panel-header {
+    background-color: #fff;
+    color: #333; }
+  .theme-light .panel-container .panel-content,
+  .theme-light .panel-container .panel-message {
+    background-color: #fff; }
+  .theme-light .panel-container .panel-overlay-container {
+    background-color: rgba(255, 255, 255, 0.5); }
+    .theme-light .panel-container .panel-overlay-container.error-overlay {
+      background-color: #fff; }
+    .theme-light .panel-container .panel-overlay-container .panel-error-container {
+      color: #333; }

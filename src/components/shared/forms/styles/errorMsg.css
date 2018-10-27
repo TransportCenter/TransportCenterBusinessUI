@@ -1,0 +1,25 @@
+.error-message {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-shrink: 0;
+  font-size: 1em; }
+  .error-message .error-icon {
+    height: 10px;
+    height: 0.625rem;
+    width: 10px;
+    width: 0.625rem;
+    margin-right: 10px;
+    margin-right: 0.625rem; }
+    .error-message .error-icon svg {
+      height: 10px;
+      height: 0.625rem;
+      width: 10px;
+      width: 0.625rem; }
+  .theme-dark .error-message {
+    color: #fff; }
+    .theme-dark .error-message .error-icon svg {
+      fill: #fc540a; }
+  .theme-light .error-message {
+    color: #333; }
+    .theme-light .error-message .error-icon svg {
+      fill: #fc540a; }

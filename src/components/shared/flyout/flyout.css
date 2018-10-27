@@ -1,0 +1,70 @@
+.flyout-container {
+  position: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 500px;
+  bottom: 0;
+  right: 0;
+  animation: 0.2s ease 0s 1 slideInFromRight;
+  z-index: 1000;
+  top: 48px;
+  top: 3rem; }
+  .flyout-container .flyout-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-shrink: 0;
+    height: 48px;
+    height: 3rem; }
+    .flyout-container .flyout-header .flyout-title {
+      padding-left: 20px;
+      line-height: 48px;
+      line-height: 3rem;
+      font-size: 16px;
+      font-size: 1rem; }
+    .flyout-container .flyout-header .flyout-close-btn,
+    .flyout-container .flyout-header .flyout-close-btn:hover {
+      background-color: transparent;
+      padding: 0px 16px;
+      padding: 0rem 1rem;
+      min-width: 0px;
+      min-width: 0rem; }
+      .flyout-container .flyout-header .flyout-close-btn:hover,
+      .flyout-container .flyout-header .flyout-close-btn:hover:hover {
+        background-color: transparent; }
+      .flyout-container .flyout-header .flyout-close-btn .btn-icon svg,
+      .flyout-container .flyout-header .flyout-close-btn:hover .btn-icon svg {
+        height: 20px;
+        height: 1.25rem;
+        width: 20px;
+        width: 1.25rem; }
+  .flyout-container .flyout-content {
+    flex-grow: 1;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+  .theme-dark .flyout-container {
+    color: #afb9c3;
+    background-color: #121416;
+    border-top: 1px solid #383b3e;
+    box-shadow: -3px 3px 14px rgba(0, 0, 0, 0.6); }
+    .theme-dark .flyout-container .flyout-header {
+      border-bottom: 1px solid #383b3e; }
+    .theme-dark .flyout-container .flyout-close-btn .btn-icon svg {
+      stroke: #afb9c3; }
+  .theme-light .flyout-container {
+    color: #333;
+    background-color: #fff;
+    border-top: 1px solid #c8c8c8;
+    box-shadow: -3px 3px 14px rgba(0, 0, 0, 0.1); }
+    .theme-light .flyout-container .flyout-header {
+      border-bottom: 1px solid #c8c8c8; }
+    .theme-light .flyout-container .flyout-close-btn .btn-icon svg {
+      stroke: #333; }
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); }
+  100% {
+    transform: translateX(0); } }

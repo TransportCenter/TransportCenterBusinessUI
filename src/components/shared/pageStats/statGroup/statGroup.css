@@ -1,0 +1,7 @@
+.stat-cell {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  margin-right: 40px;
+  margin-right: 2.5rem; }

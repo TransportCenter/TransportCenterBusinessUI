@@ -1,0 +1,6 @@
+.file-upload {
+  display: inline-block; }
+  .file-upload .upload-btn {
+    font-family: "Selawik Bold"; }
+  .file-upload .input-file {
+    display: none; }

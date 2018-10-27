@@ -1,0 +1,31 @@
+.view-rule-flyout-container .rule-name {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-top: 32px;
+  margin-top: 2rem; }
+
+.view-rule-flyout-container .rule-prop-label {
+  margin-top: 32px;
+  margin-top: 2rem; }
+
+.view-rule-flyout-container .rule-prop-value {
+  margin-top: 12px;
+  margin-top: 0.75rem; }
+
+.view-rule-flyout-container .summary-icon svg {
+  height: 16px;
+  height: 1rem;
+  width: 16px;
+  width: 1rem;
+  margin-left: 8px;
+  margin-left: 0.5rem; }
+
+.theme-dark .view-rule-flyout-container {
+  color: #fff; }
+  .theme-dark .view-rule-flyout-container .summary-icon svg {
+    fill: #fff; }
+
+.theme-light .view-rule-flyout-container {
+  color: #333; }
+  .theme-light .view-rule-flyout-container .summary-icon svg {
+    fill: #333; }

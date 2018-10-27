@@ -1,0 +1,6 @@
+.devices-container {
+  padding: 20px; }
+  .theme-dark .devices-container .status {
+    color: #fff; }
+  .theme-light .devices-container .status {
+    color: #333; }

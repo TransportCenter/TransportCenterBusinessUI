@@ -1,0 +1,19 @@
+.form-section {
+  padding-top: 32px;
+  padding-top: 2rem; }
+  .form-section .section-header {
+    margin-bottom: 12px;
+    margin-bottom: 0.75rem; }
+  .form-section .section-desc {
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    margin-bottom: 1rem; }
+  .theme-dark .form-section .section-header {
+    color: #fff; }
+  .theme-dark .form-section .section-desc {
+    color: #afb9c3; }
+  .theme-light .form-section .section-header {
+    color: #333; }
+  .theme-light .form-section .section-desc {
+    color: #666; }

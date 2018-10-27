@@ -1,0 +1,61 @@
+.toggle-btn-div {
+  display: flex;
+  flex-flow: row nowrap; }
+  .toggle-btn-div .pcs-toggle {
+    display: inline-block; }
+    .toggle-btn-div .pcs-toggle svg {
+      cursor: pointer;
+      height: 15px;
+      height: 0.9375rem;
+      width: 28px;
+      width: 1.75rem; }
+      .toggle-btn-div .pcs-toggle svg.disabled {
+        cursor: auto; }
+  .theme-dark .toggle-btn-div .cls-1 {
+    stroke: #454a4e; }
+  .theme-dark .toggle-btn-div .enable-toggle .cls-2,
+  .theme-dark .toggle-btn-div .disable-toggle .cls-2 {
+    fill: #fff;
+    stroke: #fff; }
+  .theme-dark .toggle-btn-div .disable-toggle,
+  .theme-dark .toggle-btn-div .disabled {
+    fill: #121416; }
+  .theme-dark .toggle-btn-div .enable-toggle {
+    fill: #454a4e; }
+  .theme-dark .toggle-btn-div .disabled {
+    stroke: #afb9c3; }
+  .theme-light .toggle-btn-div .cls-1 {
+    stroke: #454a4e; }
+  .theme-light .toggle-btn-div .enable-toggle .cls-2,
+  .theme-light .toggle-btn-div .disable-toggle .cls-2 {
+    fill: #fff;
+    stroke: #fff; }
+  .theme-light .toggle-btn-div .disable-toggle,
+  .theme-light .toggle-btn-div .disabled {
+    fill: #121416; }
+  .theme-light .toggle-btn-div .enable-toggle {
+    fill: #454a4e; }
+  .theme-light .toggle-btn-div .disabled {
+    stroke: #afb9c3; }
+  .toggle-btn-div .input-contents {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-left: 0.625rem; }
+    .toggle-btn-div .input-contents > .form-group-label {
+      font-size: 14px;
+      font-size: 0.875rem; }
+      .toggle-btn-div .input-contents > .form-group-label + div {
+        margin-top: 12px;
+        margin-top: 0.75rem; }
+      .theme-dark .toggle-btn-div .input-contents > .form-group-label {
+        color: #fff; }
+      .theme-light .toggle-btn-div .input-contents > .form-group-label {
+        color: #333; }
+    .toggle-btn-div .input-contents > input[type=text],
+    .toggle-btn-div .input-contents > input[type=number],
+    .toggle-btn-div .input-contents > input[type=password],
+    .toggle-btn-div .input-contents > textarea {
+      font-size: 14px;
+      font-size: 0.875rem; }

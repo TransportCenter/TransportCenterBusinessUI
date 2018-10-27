@@ -1,0 +1,22 @@
+.dashboard-container {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-flow: column nowrap;
+  align-items: stretch; }
+  .dashboard-container .grid-container {
+    padding: 10px; }
+    .dashboard-container .grid-container .grid-cell {
+      min-height: 400px; }
+      .dashboard-container .grid-container .grid-cell.devices-overview-cell {
+        min-width: 314px; }
+  .theme-dark .dashboard-container {
+    background-color: #121416;
+    color: #fff; }
+  .theme-light .dashboard-container {
+    background-color: #f2f2f2;
+    color: #333; }
+
+@media (max-width: 1200px) {
+  .dashboard-container {
+    height: auto; } }
