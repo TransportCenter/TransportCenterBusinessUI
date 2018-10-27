@@ -201,13 +201,17 @@ export class Settings extends LinkedComponent {
                 {t("settingsFlyout.version", { version })}
               </Section.Header>
               <Section.Content className="release-notes">
-                <a href="https://transportcenter.net" target="_blank">
+                <a
+                  href="https://transportcenter.net"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   {t("settingsFlyout.viewRelNotes")}
                 </a>
               </Section.Content>
             </Section.Container>
             <Section.Container className="simulation-toggle-container">
-              {/* <Section.Header>
+              <Section.Header>
                 {t("settingsFlyout.simulationData")}{" "}
               </Section.Header>
               <Section.Content className="simulation-description">
@@ -232,7 +236,7 @@ export class Settings extends LinkedComponent {
                     </div>
                   </div>
                 )}
-              </Section.Content> */}
+              </Section.Content>
             </Section.Container>
             <Section.Container>
               <Section.Header>{t("settingsFlyout.theme")}</Section.Header>
