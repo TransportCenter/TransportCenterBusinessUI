@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft. All rights reserved.
-const baseUrl = process.env.REACT_APP_BASE_SERVICE_URL || '';
-const validExtensions = ['.png', '.jpeg', '.jpg', '.svg'];
+const baseUrl = process.env.REACT_APP_BASE_SERVICE_URL || "";
+const validExtensions = [".png", ".jpeg", ".jpg", ".svg"];
 
 const Config = {
   serviceUrls: {
@@ -10,9 +10,10 @@ const Config = {
     telemetry: `${baseUrl}/telemetry/v1/`,
     deviceSimulation: `${baseUrl}/devicesimulation/v1/`,
     diagnostics: `${baseUrl}/diagnostics/v1/`,
-    privacy: 'https://privacy.microsoft.com/privacystatement',
+    privacy: "https://transportcenter.net/legal/privacypolicy",
     //TODO: Determine if should query java or dotnet
-    gitHubReleases: 'https://api.github.com/repos/Azure/azure-iot-pcs-remote-monitoring-dotnet/releases'
+    gitHubReleases:
+      "https://api.github.com/repos/Azure/azure-iot-pcs-remote-monitoring-dotnet/releases"
   },
   // Constants
   showWalkthroughExamples: false,
@@ -26,27 +27,27 @@ const Config = {
   gridResizeDebounceTime: 200, // ms
   dashboardRefreshInterval: 15000, // 15 seconds
   telemetryRefreshInterval: 1000, // 1 seconds
-  simulationId: '1',
+  simulationId: "1",
   validExtensions: validExtensions.join(),
-  emptyValue: '--',
+  emptyValue: "--",
   maxTopAlerts: 5,
   maxAlertsCount: 1000,
   gridMinResize: 1200, // In px
-  mapCenterPosition: [-122.3320708, 47.606], // Default to Seattle
+  mapCenterPosition: [-122.3320708, 47.606], // Default to Bogotá
   ruleSeverity: {
-    info: 'info',
-    warning: 'warning',
-    critical: 'critical'
+    info: "info",
+    warning: "warning",
+    critical: "critical"
   },
   alertStatus: {
-    open: 'open',
-    closed: 'closed',
-    acknowledged: 'acknowledged'
+    open: "open",
+    closed: "closed",
+    acknowledged: "acknowledged"
   },
   maxLogoFileSizeInBytes: 307200,
   deviceType: {
-    simulated: 'Simulated',
-    physical: 'Physical'
+    simulated: "Simulated",
+    physical: "Physical"
   }
 };
 
